@@ -10,7 +10,7 @@
 
 ## 怎麼安裝到手機
 
-1. 用手機打開 GitHub Pages 網址：`https://bonnie0658.github.io/english-reading/`
+1. 用手機打開 GitHub Pages 網址：`https://bonnielo.github.io/english-reading/`
 2. 加到主畫面：
    - **iPhone**：用 Safari 打開，點下方「分享」，選「加入主畫面」。
    - **Android**：用 Chrome 打開，點畫面上的「安裝」，或從選單選「安裝應用程式」。
