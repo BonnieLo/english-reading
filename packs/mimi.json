@@ -1,0 +1,456 @@
+{
+ "id": "mimi",
+ "v": 1,
+ "lv": "b",
+ "g": "繪本",
+ "kind": "繪本故事",
+ "title": "Space Cat Mimi",
+ "zhTitle": "太空貓咪咪",
+ "author": "a picture book",
+ "color": "#2E3D7A",
+ "desc": "咪咪是一隻住在太空船上的貓，她在沒有重力的地方睡覺、吃飯、打掃。",
+ "license": "原創內容",
+ "source": "Page Talk 原創",
+ "url": "",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Home in a spaceship",
+   "zh": "太空船上的家",
+   "cat": "住",
+   "intro": [
+    "My book today is a picture book: 'Space Cat Mimi.' Mimi lives in a spaceship!",
+    "我今天的書是一本繪本：《太空貓咪咪》。咪咪住在太空船上！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Mimi's bedroom is very small. She sleeps in a bag on the wall! Is your bedroom big or small?",
+      "咪咪的臥室很小。她睡在牆上的睡袋裡！你的房間大還是小？"
+     ],
+     "o": [
+      [
+       "It's small but cozy.",
+       "很小但很溫馨。",
+       "cozy = 舒適溫馨的。but 連接兩個相反的感覺。",
+       "Small and cozy is the best, like Mimi's room.",
+       "小又溫馨最好了，就像咪咪的房間。"
+      ],
+      [
+       "It's big. I have a big bed.",
+       "很大。我有一張大床。",
+       "先回答，再補一句細節，對話會更自然。",
+       "A big bed! Mimi would want to sleep on it.",
+       "大床！咪咪會想睡在上面。"
+      ],
+      [
+       "I share a room with my sister.",
+       "我和我的姊妹共用一間房。",
+       "share = 共用。sister 可以是姊姊或妹妹。",
+       "Sharing is nice. You can talk before sleep.",
+       "共用很好。睡前可以聊天。"
+      ]
+     ],
+     "v": [
+      [
+       "bedroom",
+       "臥室",
+       "住"
+      ],
+      [
+       "wall",
+       "牆",
+       "住"
+      ],
+      [
+       "sleeping bag",
+       "睡袋",
+       "住"
+      ],
+      [
+       "share",
+       "共用",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "There is no gravity, so things float. What would float in your room?",
+      "沒有重力，所以東西會飄起來。你房間裡什麼會飄起來？"
+     ],
+     "o": [
+      [
+       "My pillow!",
+       "我的枕頭！",
+       "pillow = 枕頭。",
+       "A flying pillow! Pillow fights in space, ha!",
+       "飛起來的枕頭！太空枕頭大戰，哈！"
+      ],
+      [
+       "All my books.",
+       "我所有的書。",
+       "all my + 名詞 = 我所有的…。",
+       "Books everywhere! Mimi uses a net to catch them.",
+       "到處都是書！咪咪用網子接住它們。"
+      ],
+      [
+       "My phone. I'd lose it.",
+       "我的手機。我會把它弄丟。",
+       "I'd = I would，表示假設的情況。",
+       "Put it in your pocket! Mimi's jacket has many pockets.",
+       "放進口袋！咪咪的夾克有很多口袋。"
+      ]
+     ],
+     "v": [
+      [
+       "float",
+       "飄浮",
+       "其他"
+      ],
+      [
+       "pillow",
+       "枕頭",
+       "住"
+      ],
+      [
+       "blanket",
+       "毯子",
+       "住"
+      ],
+      [
+       "pocket",
+       "口袋",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Mimi looks out the window and sees Earth. What can you see from your window?",
+      "咪咪看出窗外，看見地球。你從窗戶能看到什麼？"
+     ],
+     "o": [
+      [
+       "Tall buildings.",
+       "高樓。",
+       "building = 建築物、大樓。",
+       "City view! At night the lights look like stars.",
+       "城市景色！晚上燈光看起來像星星。"
+      ],
+      [
+       "Mountains and trees.",
+       "山和樹。",
+       "mountain = 山。",
+       "Beautiful! Mimi misses trees.",
+       "好美！咪咪很想念樹。"
+      ],
+      [
+       "Another house. Not so nice.",
+       "另一棟房子。不太好看。",
+       "not so = 沒那麼。",
+       "Ha! Maybe put a plant by the window.",
+       "哈！也許在窗邊放盆植物。"
+      ]
+     ],
+     "v": [
+      [
+       "window",
+       "窗戶",
+       "住"
+      ],
+      [
+       "building",
+       "大樓",
+       "住"
+      ],
+      [
+       "view",
+       "景色",
+       "住"
+      ],
+      [
+       "plant",
+       "植物",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Mimi cleans the spaceship every day with a small robot. Who cleans your home?",
+      "咪咪每天和小機器人一起打掃太空船。你家誰打掃？"
+     ],
+     "o": [
+      [
+       "I do. Every weekend.",
+       "我。每個週末。",
+       "I do. 是「是我」的簡短回答。",
+       "Good job! A clean floor feels great.",
+       "很棒！地板乾淨感覺很好。"
+      ],
+      [
+       "My family cleans together.",
+       "我們全家一起打掃。",
+       "together = 一起。",
+       "Teamwork! Like Mimi and her robot.",
+       "團隊合作！就像咪咪和她的機器人。"
+      ],
+      [
+       "I want a robot vacuum!",
+       "我想要掃地機器人！",
+       "robot vacuum = 掃地機器人。vacuum = 吸塵器。",
+       "Me too! Then I can read more books.",
+       "我也是！那我就可以看更多書了。"
+      ]
+     ],
+     "v": [
+      [
+       "clean",
+       "打掃；乾淨的",
+       "住"
+      ],
+      [
+       "floor",
+       "地板",
+       "住"
+      ],
+      [
+       "vacuum",
+       "吸塵器",
+       "住"
+      ],
+      [
+       "trash",
+       "垃圾",
+       "住"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Thanks for visiting Mimi's home! Next time, space food!",
+    "謝謝你來咪咪家玩！下次聊太空食物！"
+   ]
+  },
+  {
+   "t": "Space food",
+   "zh": "太空食物",
+   "cat": "食",
+   "intro": [
+    "Page ten is all about space food. Mimi eats from a tube!",
+    "第十頁都在講太空食物。咪咪用管子吃東西！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Space food comes in small packs. Would you like to try it?",
+      "太空食物裝在小包裝裡。你想試試看嗎？"
+     ],
+     "o": [
+      [
+       "Yes! It sounds fun.",
+       "想！聽起來很好玩。",
+       "sounds + 形容詞 = 聽起來…。",
+       "I think so too. Astronauts even eat ice cream!",
+       "我也這麼想。太空人甚至會吃冰淇淋！"
+      ],
+      [
+       "No, I like hot food.",
+       "不要，我喜歡熱食。",
+       "hot food = 熱的食物。",
+       "Me too. Hot soup is the best.",
+       "我也是。熱湯最棒了。"
+      ],
+      [
+       "Is it tasty?",
+       "好吃嗎？",
+       "tasty = 美味的。反問也是很好的回答。",
+       "Mimi says it's okay, but she misses fish!",
+       "咪咪說還可以，但她很想念魚！"
+      ]
+     ],
+     "v": [
+      [
+       "pack",
+       "包裝",
+       "食"
+      ],
+      [
+       "tube",
+       "管子",
+       "食"
+      ],
+      [
+       "astronaut",
+       "太空人",
+       "行"
+      ],
+      [
+       "tasty",
+       "好吃的",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Mimi is a cat, so she loves fish. What is your favorite food?",
+      "咪咪是貓，所以她愛吃魚。你最喜歡的食物是什麼？"
+     ],
+     "o": [
+      [
+       "Beef noodles.",
+       "牛肉麵。",
+       "beef = 牛肉。",
+       "Oh, famous Taiwanese food! I want to try it.",
+       "喔，有名的台灣食物！我想試試。"
+      ],
+      [
+       "Sushi. I love fish too!",
+       "壽司。我也愛魚！",
+       "too 放句尾 = 也。",
+       "You and Mimi can be friends!",
+       "你和咪咪可以當朋友！"
+      ],
+      [
+       "Pizza with cheese.",
+       "有起司的披薩。",
+       "cheese = 起司。",
+       "Cheese pizza is my favorite too! Chicken pizza is good, too.",
+       "起司披薩也是我最愛！雞肉披薩也不錯。"
+      ]
+     ],
+     "v": [
+      [
+       "beef",
+       "牛肉",
+       "食"
+      ],
+      [
+       "fish",
+       "魚",
+       "食"
+      ],
+      [
+       "cheese",
+       "起司",
+       "食"
+      ],
+      [
+       "chicken",
+       "雞肉",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Bread makes crumbs, and crumbs float in space! So Mimi eats tortillas. Do you know tortillas?",
+      "麵包會掉屑，碎屑會在太空中飄！所以咪咪吃墨西哥餅皮。你知道墨西哥餅皮嗎？"
+     ],
+     "o": [
+      [
+       "Yes, like in tacos.",
+       "知道，像塔可餅裡那種。",
+       "like in = 就像在…裡面。",
+       "Right! You can put meat and vegetables inside.",
+       "對！可以把肉和蔬菜包在裡面。"
+      ],
+      [
+       "No. What is it?",
+       "不知道。那是什麼？",
+       "聽不懂就直接問，外國人很習慣這樣。",
+       "It's a soft, flat bread from Mexico.",
+       "是一種來自墨西哥、軟軟扁扁的餅。"
+      ],
+      [
+       "Like a Taiwanese egg pancake?",
+       "像台灣的蛋餅嗎？",
+       "用自己熟悉的東西來比較，是很好的聊天技巧。",
+       "A little, yes! Both are thin and round.",
+       "有一點像！兩個都是薄薄圓圓的。"
+      ]
+     ],
+     "v": [
+      [
+       "crumb",
+       "碎屑",
+       "食"
+      ],
+      [
+       "tortilla",
+       "墨西哥餅皮",
+       "食"
+      ],
+      [
+       "meat",
+       "肉",
+       "食"
+      ],
+      [
+       "flat",
+       "扁平的",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Mimi drinks water from a bag with a straw. How much water do you drink every day?",
+      "咪咪用吸管從袋子裡喝水。你每天喝多少水？"
+     ],
+     "o": [
+      [
+       "About two bottles.",
+       "大約兩瓶。",
+       "about = 大約。",
+       "Good! Your body needs water.",
+       "很好！身體需要水。"
+      ],
+      [
+       "Not much. I forget.",
+       "不多。我會忘記。",
+       "forget = 忘記。",
+       "Try a big cup on your desk. It helps!",
+       "在桌上放個大杯子試試。很有用！"
+      ],
+      [
+       "I drink more tea than water.",
+       "我喝茶比喝水多。",
+       "more A than B = A 比 B 多。",
+       "A tea lover! In Taiwan, bubble tea, right?",
+       "愛喝茶！在台灣是珍珠奶茶吧？"
+      ]
+     ],
+     "v": [
+      [
+       "straw",
+       "吸管",
+       "食"
+      ],
+      [
+       "cup",
+       "杯子",
+       "食"
+      ],
+      [
+       "bottle",
+       "瓶",
+       "食"
+      ],
+      [
+       "bubble tea",
+       "珍珠奶茶",
+       "食"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Mimi says goodbye! Meow! See you next time.",
+    "咪咪說再見！喵！下次見。"
+   ]
+  }
+ ]
+}

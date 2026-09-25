@@ -1,0 +1,456 @@
+{
+ "id": "alice",
+ "v": 1,
+ "lv": "i",
+ "g": "奇幻",
+ "kind": "經典名著",
+ "title": "Alice's Adventures in Wonderland",
+ "zhTitle": "愛麗絲夢遊仙境",
+ "author": "Lewis Carroll",
+ "color": "#6B4C9A",
+ "desc": "愛麗絲追著白兔掉進兔子洞，遇見瘋狂茶會、會說話的貓，還一下變大一下變小。",
+ "license": "公有領域",
+ "source": "Project Gutenberg",
+ "url": "https://www.gutenberg.org/ebooks/11",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "The Mad Tea Party",
+   "zh": "瘋狂茶會",
+   "cat": "食",
+   "intro": [
+    "Today let's talk about 'Alice's Adventures in Wonderland,' especially the Mad Tea Party!",
+    "今天來聊《愛麗絲夢遊仙境》，特別是瘋狂茶會！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "The Hatter and the March Hare have tea all day because time stopped at six o'clock. Would you enjoy a never-ending tea party?",
+      "帽匠和三月兔整天喝茶，因為時間停在六點。你會喜歡永遠不結束的茶會嗎？"
+     ],
+     "o": [
+      [
+       "Only if there are enough snacks!",
+       "只要點心夠多就好！",
+       "only if = 只有在…的條件下。snacks = 點心。",
+       "Ha! In the book, they never wash a cup. They just move to the next clean one.",
+       "哈！書裡他們從不洗杯子，只是換到下一個乾淨的。"
+      ],
+      [
+       "No way. I'd get bored quickly.",
+       "才不要。我很快就會膩。",
+       "No way = 才不要。get bored = 感到無聊。",
+       "Alice felt the same. She left because they were so rude.",
+       "愛麗絲也這麼覺得。她因為他們太無禮而離開了。"
+      ],
+      [
+       "Sounds like my weekends!",
+       "聽起來像我的週末！",
+       "Sounds like = 聽起來像。用自己的生活來開玩笑。",
+       "A relaxing weekend with a pot of tea sounds perfect to me.",
+       "有一壺茶的放鬆週末聽起來很完美。"
+      ]
+     ],
+     "v": [
+      [
+       "tea party",
+       "茶會",
+       "食"
+      ],
+      [
+       "cup",
+       "杯子",
+       "食"
+      ],
+      [
+       "teapot",
+       "茶壺",
+       "食"
+      ],
+      [
+       "snack",
+       "點心",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The March Hare offers Alice wine, but there isn't any! How do you usually take your tea?",
+      "三月兔請愛麗絲喝酒，但根本沒有酒！你通常怎麼喝茶？"
+     ],
+     "o": [
+      [
+       "With milk and a little sugar.",
+       "加牛奶和一點糖。",
+       "take your tea 在這裡是「喝茶的方式」。",
+       "The British way! That fits the book perfectly.",
+       "英式喝法！跟這本書很搭。"
+      ],
+      [
+       "Plain green tea, no sugar.",
+       "無糖綠茶。",
+       "plain = 原味的、不加東西的。",
+       "Very healthy. Green tea has such a fresh taste.",
+       "很健康。綠茶有一種清新的味道。"
+      ],
+      [
+       "I prefer bubble tea, honestly.",
+       "老實說，我比較喜歡珍奶。",
+       "prefer = 比較喜歡。",
+       "Ha! I'd love to see the Hatter try tapioca pearls.",
+       "哈！好想看帽匠吃珍珠。"
+      ]
+     ],
+     "v": [
+      [
+       "sugar",
+       "糖",
+       "食"
+      ],
+      [
+       "plain",
+       "原味的",
+       "食"
+      ],
+      [
+       "tapioca pearls",
+       "珍珠（粉圓）",
+       "食"
+      ],
+      [
+       "pour",
+       "倒（液體）",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The Dormouse tells a story about three sisters who live at the bottom of a treacle well. Treacle is a sweet syrup. Have you ever tried a strange food?",
+      "睡鼠講了三姊妹住在糖漿井底的故事。treacle 是一種甜糖漿。你吃過奇怪的食物嗎？"
+     ],
+     "o": [
+      [
+       "Yes, stinky tofu!",
+       "有，臭豆腐！",
+       "stinky = 臭的。",
+       "I've heard it smells terrible but tastes amazing!",
+       "我聽說它聞起來很可怕，但吃起來超讚！"
+      ],
+      [
+       "I once tried fried insects.",
+       "我曾經吃過炸昆蟲。",
+       "fried = 油炸的。insect = 昆蟲。",
+       "Wow, you're brave! Even Alice might say no to that.",
+       "哇，你好勇敢！連愛麗絲可能都會拒絕。"
+      ],
+      [
+       "No, I'm a picky eater.",
+       "沒有，我很挑食。",
+       "picky eater = 挑食的人。",
+       "That's okay! Wonderland food would scare you, then.",
+       "沒關係！那仙境的食物應該會嚇到你。"
+      ]
+     ],
+     "v": [
+      [
+       "treacle",
+       "糖蜜；糖漿",
+       "食"
+      ],
+      [
+       "stinky tofu",
+       "臭豆腐",
+       "食"
+      ],
+      [
+       "picky eater",
+       "挑食的人",
+       "食"
+      ],
+      [
+       "taste",
+       "嚐起來；味道",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Earlier, Alice eats a little cake with 'EAT ME' on it and grows huge. If you found a cake like that, would you eat it?",
+      "更早之前，愛麗絲吃了寫著「吃我」的小蛋糕，變得超大。如果你找到那種蛋糕，會吃嗎？"
+     ],
+     "o": [
+      [
+       "Of course! I'm curious.",
+       "當然！我很好奇。",
+       "curious = 好奇的。",
+       "Curiosity is what drives the whole book!",
+       "好奇心就是推動整本書的力量！"
+      ],
+      [
+       "No, it could be dangerous.",
+       "不要，可能會有危險。",
+       "could be = 可能是。",
+       "Very sensible. Alice doesn't think twice, and trouble follows.",
+       "很理智。愛麗絲想都沒想，麻煩就跟著來了。"
+      ],
+      [
+       "Only if it's a chocolate dessert.",
+       "除非是巧克力甜點。",
+       "dessert = 甜點。注意和 desert（沙漠）拼法不同。",
+       "Ha! Your priorities are very clear.",
+       "哈！你的優先順序很清楚。"
+      ]
+     ],
+     "v": [
+      [
+       "dessert",
+       "甜點",
+       "食"
+      ],
+      [
+       "bake",
+       "烘焙",
+       "食"
+      ],
+      [
+       "ingredient",
+       "食材",
+       "食"
+      ],
+      [
+       "curious",
+       "好奇的",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "What a mad party! Next time, let's explore the strange houses of Wonderland.",
+    "好瘋狂的派對！下次來探索仙境裡奇怪的房子吧。"
+   ]
+  },
+  {
+   "t": "Too big for the house",
+   "zh": "大到塞不進房子",
+   "cat": "住",
+   "intro": [
+    "Let's talk about the strange places in Wonderland: tiny doors, long halls, and the White Rabbit's house.",
+    "我們來聊仙境裡奇怪的地方：小小的門、長長的走廊，還有白兔的房子。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Alice falls into a long hall full of locked doors. She finds a tiny key for a tiny door. What would you do in that hall?",
+      "愛麗絲掉進一條滿是上鎖門的長廊。她找到一把開小門的小鑰匙。你在那個走廊裡會做什麼？"
+     ],
+     "o": [
+      [
+       "Try every door, one by one.",
+       "一扇一扇試每一扇門。",
+       "one by one = 一個接一個。",
+       "Very logical! Alice does the same thing at first.",
+       "很有邏輯！愛麗絲一開始也是這麼做。"
+      ],
+      [
+       "Look for a way back up.",
+       "找回去上面的路。",
+       "a way back = 回去的路。",
+       "Smart, but there's no ladder or stairs anywhere.",
+       "聰明，但到處都沒有梯子或樓梯。"
+      ],
+      [
+       "Sit down and cry, honestly.",
+       "老實說，坐下來哭。",
+       "honestly 放句尾，表示「老實說」。",
+       "Ha! Alice cries so much that she makes a pool of tears.",
+       "哈！愛麗絲哭到變成一池眼淚。"
+      ]
+     ],
+     "v": [
+      [
+       "hall",
+       "走廊；大廳",
+       "住"
+      ],
+      [
+       "lock",
+       "鎖",
+       "住"
+      ],
+      [
+       "key",
+       "鑰匙",
+       "住"
+      ],
+      [
+       "ladder",
+       "梯子",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Later, Alice grows too big and gets stuck inside the White Rabbit's house. Have you ever felt your room was too small?",
+      "後來愛麗絲變得太大，卡在白兔的房子裡。你曾覺得你的房間太小嗎？"
+     ],
+     "o": [
+      [
+       "All the time. I need more storage.",
+       "一直都是。我需要更多收納空間。",
+       "storage = 收納空間。",
+       "Me too. My closet is always full.",
+       "我也是。我的衣櫃總是滿的。"
+      ],
+      [
+       "No, my room is just right.",
+       "不會，我的房間剛剛好。",
+       "just right = 剛好。",
+       "Lucky you! Just right is hard to find in the city.",
+       "你真幸運！在城市裡剛剛好很難找。"
+      ],
+      [
+       "Only when my friends visit.",
+       "只有朋友來的時候。",
+       "only when = 只有在…的時候。",
+       "True! Five people in a small room feels like Alice's problem.",
+       "真的！五個人擠在小房間就像愛麗絲的困境。"
+      ]
+     ],
+     "v": [
+      [
+       "storage",
+       "收納空間",
+       "住"
+      ],
+      [
+       "closet",
+       "衣櫃",
+       "住"
+      ],
+      [
+       "stuck",
+       "卡住的",
+       "其他"
+      ],
+      [
+       "chimney",
+       "煙囪",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Her arm goes out the window and her foot goes up the chimney! If you could change one thing about your home, what would it be?",
+      "她的手伸出窗外，腳伸進煙囪！如果你能改變家裡一件事，會是什麼？"
+     ],
+     "o": [
+      [
+       "A bigger kitchen.",
+       "更大的廚房。",
+       "bigger = 更大的（比較級）。",
+       "Great choice. More room for cooking and baking!",
+       "好選擇。更多空間做菜和烘焙！"
+      ],
+      [
+       "A balcony with plants.",
+       "有植物的陽台。",
+       "balcony = 陽台。",
+       "Lovely. A small garden in the city is a dream.",
+       "好可愛。城市裡的小花園是個夢想。"
+      ],
+      [
+       "A bathtub. I only have a shower.",
+       "浴缸。我只有淋浴間。",
+       "bathtub = 浴缸；shower = 淋浴。",
+       "A hot bath after a long day is the best.",
+       "累了一整天後泡熱水澡最棒了。"
+      ]
+     ],
+     "v": [
+      [
+       "balcony",
+       "陽台",
+       "住"
+      ],
+      [
+       "bathtub",
+       "浴缸",
+       "住"
+      ],
+      [
+       "shower",
+       "淋浴",
+       "住"
+      ],
+      [
+       "living room",
+       "客廳",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "In the end, Alice wakes up under a tree by the river. It was all a dream! Do you remember your dreams?",
+      "最後愛麗絲在河邊的樹下醒來。原來一切都是夢！你記得你的夢嗎？"
+     ],
+     "o": [
+      [
+       "Sometimes, but they fade fast.",
+       "有時候，但很快就忘了。",
+       "fade = 淡去、消失。",
+       "Same here. I try to write them down as soon as I wake up.",
+       "我也是。我會在醒來後馬上寫下來。"
+      ],
+      [
+       "Yes, and they're often strange.",
+       "記得，而且常常很奇怪。",
+       "often = 常常。",
+       "Then you already live in a little Wonderland!",
+       "那你已經住在一個小仙境裡了！"
+      ],
+      [
+       "Almost never.",
+       "幾乎從來不記得。",
+       "almost never = 幾乎從不。",
+       "Maybe you sleep very deeply. That's a good thing!",
+       "也許你睡得很沉。那是好事！"
+      ]
+     ],
+     "v": [
+      [
+       "wake up",
+       "醒來",
+       "住"
+      ],
+      [
+       "dream",
+       "夢",
+       "其他"
+      ],
+      [
+       "nap",
+       "小睡",
+       "住"
+      ],
+      [
+       "riverbank",
+       "河岸",
+       "行"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Thanks for falling down the rabbit hole with me!",
+    "謝謝你陪我一起掉進兔子洞！"
+   ]
+  }
+ ]
+}

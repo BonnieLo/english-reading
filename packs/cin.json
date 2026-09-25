@@ -1,0 +1,466 @@
+{
+ "id": "cin",
+ "v": 1,
+ "lv": "b",
+ "g": "童話",
+ "kind": "經典名著",
+ "title": "Cinderella",
+ "zhTitle": "灰姑娘",
+ "author": "Charles Perrault",
+ "color": "#3E6FB0",
+ "desc": "仙女教母用魔法把南瓜變成馬車，灰姑娘穿上玻璃鞋去參加皇宮舞會。",
+ "license": "公有領域",
+ "source": "Project Gutenberg · Perrault's Fairy Tales",
+ "url": "https://www.gutenberg.org/ebooks/search/?query=perrault",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Ready for the ball",
+   "zh": "準備參加舞會",
+   "cat": "衣",
+   "intro": [
+    "Today's book is Cinderella! Let's talk about her beautiful dress.",
+    "今天的書是《灰姑娘》！我們來聊聊她漂亮的禮服。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Cinderella wants to go to the ball, but she has only old clothes. What does she need?",
+      "灰姑娘想去舞會，但她只有舊衣服。她需要什麼？"
+     ],
+     "o": [
+      [
+       "A new dress!",
+       "一件新禮服！",
+       "dress = 洋裝、禮服。",
+       "Yes! And the fairy godmother gives her a beautiful dress.",
+       "對！仙女教母給了她一件漂亮的禮服。"
+      ],
+      [
+       "Nice shoes.",
+       "好看的鞋子。",
+       "shoes 通常用複數，因為一雙有兩隻。",
+       "Right! Her shoes are made of glass. Glass slippers!",
+       "沒錯！她的鞋子是玻璃做的。玻璃鞋！"
+      ],
+      [
+       "A friend to help her.",
+       "一個幫她的朋友。",
+       "不說衣服而說「人」，是很有想法的回答。",
+       "True. The fairy godmother is that friend. She helps with magic.",
+       "真的。仙女教母就是那個朋友。她用魔法幫忙。"
+      ]
+     ],
+     "v": [
+      [
+       "clothes",
+       "衣服",
+       "衣"
+      ],
+      [
+       "dress",
+       "洋裝；禮服",
+       "衣"
+      ],
+      [
+       "shoes",
+       "鞋子",
+       "衣"
+      ],
+      [
+       "glass slipper",
+       "玻璃鞋",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "What do you wear to a party?",
+      "你參加派對會穿什麼？"
+     ],
+     "o": [
+      [
+       "A shirt and jeans.",
+       "襯衫和牛仔褲。",
+       "jeans = 牛仔褲（複數）。休閒派對很常見。",
+       "Easy and cool. I like that style.",
+       "輕鬆又好看。我喜歡這種風格。"
+      ],
+      [
+       "A skirt and a nice top.",
+       "裙子和一件好看的上衣。",
+       "top = 上衣（口語）。skirt = 裙子。",
+       "Pretty! You can dance in a skirt.",
+       "好漂亮！穿裙子可以跳舞。"
+      ],
+      [
+       "I don't go to parties much.",
+       "我不太參加派對。",
+       "much 放句尾，表示「不太常」。",
+       "That's okay. Staying home with a book is fun too!",
+       "沒關係。在家看書也很好玩！"
+      ]
+     ],
+     "v": [
+      [
+       "shirt",
+       "襯衫",
+       "衣"
+      ],
+      [
+       "jeans",
+       "牛仔褲",
+       "衣"
+      ],
+      [
+       "skirt",
+       "裙子",
+       "衣"
+      ],
+      [
+       "top",
+       "上衣",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "At midnight, the magic stops. Her dress turns into old clothes again! What time do you go to bed?",
+      "午夜時魔法消失，她的禮服又變回舊衣服！你幾點上床睡覺？"
+     ],
+     "o": [
+      [
+       "At eleven o'clock.",
+       "十一點。",
+       "at + 時間。o'clock 用在整點。",
+       "Close to midnight! Just like Cinderella.",
+       "很接近午夜呢！就像灰姑娘。"
+      ],
+      [
+       "Very late. After one!",
+       "很晚。一點以後！",
+       "after = 在…之後。",
+       "Wow, after midnight! Your magic is strong, ha!",
+       "哇，過了午夜！你的魔法很強，哈！"
+      ],
+      [
+       "Early. At ten.",
+       "很早。十點。",
+       "先說 Early 再補充時間，簡單清楚。",
+       "Good habit! Sleep is important.",
+       "好習慣！睡覺很重要。"
+      ]
+     ],
+     "v": [
+      [
+       "midnight",
+       "午夜",
+       "其他"
+      ],
+      [
+       "bed",
+       "床",
+       "住"
+      ],
+      [
+       "bedroom",
+       "臥室",
+       "住"
+      ],
+      [
+       "sleep",
+       "睡覺",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "She loses one glass slipper on the stairs. Have you ever lost a shoe?",
+      "她在樓梯上掉了一隻玻璃鞋。你曾經掉過鞋子嗎？"
+     ],
+     "o": [
+      [
+       "Yes, at the beach!",
+       "有，在海灘上！",
+       "at the beach = 在海灘。",
+       "Oh no! The sea takes everything, ha!",
+       "糟糕！大海什麼都帶走，哈！"
+      ],
+      [
+       "No, but I lost my umbrella.",
+       "沒有，但我弄丟過雨傘。",
+       "lost 是 lose（遺失）的過去式。umbrella = 雨傘。",
+       "Everyone loses umbrellas! I lose one every year.",
+       "每個人都會掉雨傘！我每年都掉一把。"
+      ],
+      [
+       "Only a sock!",
+       "只掉過一隻襪子！",
+       "sock = 襪子。洗衣服常常少一隻，是很生活化的笑話。",
+       "Ha! Socks always go missing in the washing machine.",
+       "哈！襪子總是在洗衣機裡不見。"
+      ]
+     ],
+     "v": [
+      [
+       "stairs",
+       "樓梯",
+       "住"
+      ],
+      [
+       "sock",
+       "襪子",
+       "衣"
+      ],
+      [
+       "umbrella",
+       "雨傘",
+       "衣"
+      ],
+      [
+       "washing machine",
+       "洗衣機",
+       "住"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Next time, let's talk about her pumpkin coach!",
+    "下次來聊她的南瓜馬車吧！"
+   ]
+  },
+  {
+   "t": "The pumpkin coach",
+   "zh": "南瓜馬車",
+   "cat": "行",
+   "intro": [
+    "Let's talk about how Cinderella gets to the ball!",
+    "我們來聊聊灰姑娘怎麼去舞會！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "A pumpkin becomes a coach, and mice become horses. What would you like to ride?",
+      "南瓜變成馬車，老鼠變成馬。你想坐什麼？"
+     ],
+     "o": [
+      [
+       "A horse! It's so cool.",
+       "一匹馬！超酷的。",
+       "ride a horse = 騎馬。",
+       "Riding a horse is fun, but a little scary for me.",
+       "騎馬很好玩，但對我來說有點可怕。"
+      ],
+      [
+       "A fast sports car.",
+       "一台很快的跑車。",
+       "sports car = 跑車。fast = 快的。",
+       "Vroom! You can get to the ball in five minutes.",
+       "轟轟！你五分鐘就能到舞會。"
+      ],
+      [
+       "A bicycle is fine.",
+       "腳踏車就好。",
+       "is fine = 就可以了，表示要求不高。",
+       "Ha! Riding a bike in a long dress is hard.",
+       "哈！穿長禮服騎腳踏車很難喔。"
+      ]
+     ],
+     "v": [
+      [
+       "coach",
+       "馬車",
+       "行"
+      ],
+      [
+       "horse",
+       "馬",
+       "行"
+      ],
+      [
+       "ride",
+       "騎；搭乘",
+       "行"
+      ],
+      [
+       "sports car",
+       "跑車",
+       "行"
+      ],
+      [
+       "bicycle",
+       "腳踏車",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The palace is far from her house. How long is your trip to school or work?",
+      "皇宮離她家很遠。你去學校或上班路程多久？"
+     ],
+     "o": [
+      [
+       "About ten minutes.",
+       "大約十分鐘。",
+       "about = 大約。",
+       "Short trip! That's lucky.",
+       "路程很短！真幸運。"
+      ],
+      [
+       "One hour by train.",
+       "搭火車一小時。",
+       "by train = 搭火車。by + 交通工具，中間不加 the。",
+       "One hour! You can read a book on the train.",
+       "一小時！你可以在火車上看書。"
+      ],
+      [
+       "I work at home.",
+       "我在家工作。",
+       "at home = 在家。沒有通勤也可以這樣說。",
+       "No trip at all! You can wear pajamas, ha!",
+       "完全不用通勤！還可以穿睡衣，哈！"
+      ]
+     ],
+     "v": [
+      [
+       "palace",
+       "皇宮",
+       "住"
+      ],
+      [
+       "far",
+       "遠的",
+       "行"
+      ],
+      [
+       "trip",
+       "路程；旅行",
+       "行"
+      ],
+      [
+       "train",
+       "火車",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The prince looks for Cinderella in every house in town. How does he travel?",
+      "王子在城裡每一戶人家找灰姑娘。他怎麼移動？"
+     ],
+     "o": [
+      [
+       "By horse, I think.",
+       "我想是騎馬。",
+       "by horse = 騎馬。",
+       "Yes, with his helpers. They go from house to house.",
+       "對，和他的隨從一起。他們一戶一戶地找。"
+      ],
+      [
+       "He walks on the street.",
+       "他在街上走。",
+       "on the street = 在街上。",
+       "Walking is slow, but he can see every house.",
+       "走路很慢，但可以看到每一戶。"
+      ],
+      [
+       "He should use a map!",
+       "他應該用地圖！",
+       "should = 應該，用來提出建議。",
+       "Good idea! A map helps a lot.",
+       "好主意！地圖很有幫助。"
+      ]
+     ],
+     "v": [
+      [
+       "town",
+       "城鎮",
+       "住"
+      ],
+      [
+       "street",
+       "街道",
+       "行"
+      ],
+      [
+       "map",
+       "地圖",
+       "行"
+      ],
+      [
+       "travel",
+       "移動；旅行",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The slipper fits! Cinderella and the prince live in the palace. Do you want to live in a palace?",
+      "鞋子合腳！灰姑娘和王子住進皇宮。你想住在皇宮裡嗎？"
+     ],
+     "o": [
+      [
+       "Yes! Big rooms and a garden.",
+       "想！大房間和花園。",
+       "garden = 花園。",
+       "And a big kitchen with a chef!",
+       "還有一個大廚房和一位主廚！"
+      ],
+      [
+       "No, it's too big to clean.",
+       "不要，太大了很難打掃。",
+       "too + 形容詞 + to + 動詞 = 太…而不能…。",
+       "Ha! Cinderella knows a lot about cleaning.",
+       "哈！灰姑娘對打掃可是很懂。"
+      ],
+      [
+       "A small apartment is fine for me.",
+       "小公寓對我來說就好。",
+       "apartment = 公寓。for me = 對我來說。",
+       "Me too. Small and cozy is nice.",
+       "我也是。小小的、很溫馨就很好。"
+      ]
+     ],
+     "v": [
+      [
+       "room",
+       "房間",
+       "住"
+      ],
+      [
+       "garden",
+       "花園",
+       "住"
+      ],
+      [
+       "kitchen",
+       "廚房",
+       "住"
+      ],
+      [
+       "apartment",
+       "公寓",
+       "住"
+      ],
+      [
+       "clean",
+       "打掃",
+       "住"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "The end! And they lived happily ever after. See you next time!",
+    "故事結束！他們從此過著幸福快樂的日子。下次見！"
+   ]
+  }
+ ]
+}

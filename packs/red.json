@@ -1,0 +1,481 @@
+{
+ "id": "red",
+ "v": 1,
+ "lv": "b",
+ "g": "童話",
+ "kind": "經典名著",
+ "title": "Little Red Riding Hood",
+ "zhTitle": "小紅帽",
+ "author": "Brothers Grimm",
+ "color": "#B5402E",
+ "desc": "小紅帽提著籃子穿過森林去看奶奶，卻在路上遇到了大野狼。",
+ "license": "公有領域",
+ "source": "Project Gutenberg · Grimms' Fairy Tales",
+ "url": "https://www.gutenberg.org/ebooks/2591",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "What's in the basket?",
+   "zh": "籃子裡有什麼？",
+   "cat": "食",
+   "intro": [
+    "Hi! I just read Little Red Riding Hood again. Let's talk about it!",
+    "嗨！我剛又讀了一次《小紅帽》。我們來聊聊吧！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Red Riding Hood takes a basket to her grandma. What do you think is in the basket?",
+      "小紅帽帶了一個籃子去奶奶家。你覺得籃子裡有什麼？"
+     ],
+     "o": [
+      [
+       "Bread and cake, I think.",
+       "我想是麵包和蛋糕。",
+       "直接猜答案。I think 放句尾，語氣比較輕鬆、不那麼肯定。",
+       "Yes! In the book, she has cake and a bottle of milk. Yummy!",
+       "對！書裡她帶了蛋糕和一瓶牛奶。好好吃！"
+      ],
+      [
+       "Maybe some apples?",
+       "也許是一些蘋果？",
+       "用 Maybe 開頭表示「也許」，是不確定的猜測。some apples = 一些蘋果。",
+       "Good guess! Apples are a nice gift. In the book, it's cake and milk.",
+       "猜得好！蘋果是很棒的禮物。書裡是蛋糕和牛奶。"
+      ],
+      [
+       "I don't know. What is it?",
+       "我不知道。是什麼？",
+       "不知道就直接問回去，是對話中很常用的方式。",
+       "It's cake and a bottle of milk! Grandma is sick, so it's a gift.",
+       "是蛋糕和一瓶牛奶！奶奶生病了，所以這是禮物。"
+      ]
+     ],
+     "v": [
+      [
+       "basket",
+       "籃子",
+       "食"
+      ],
+      [
+       "bread",
+       "麵包",
+       "食"
+      ],
+      [
+       "cake",
+       "蛋糕",
+       "食"
+      ],
+      [
+       "milk",
+       "牛奶",
+       "食"
+      ],
+      [
+       "bottle",
+       "瓶子",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "When you visit your grandma, what food do you bring?",
+      "你去看奶奶的時候，會帶什麼食物？"
+     ],
+     "o": [
+      [
+       "I bring fruit, like bananas.",
+       "我會帶水果，像是香蕉。",
+       "like 在這裡是「像是」，用來舉例，不是「喜歡」。",
+       "Fruit is healthy! Grandmas love bananas because they are soft.",
+       "水果很健康！奶奶們喜歡香蕉，因為它很軟。"
+      ],
+      [
+       "I bring some cookies.",
+       "我會帶一些餅乾。",
+       "bring = 帶來。cookies = 餅乾（美式說法）。",
+       "Cookies! Sweet and nice. I love cookies with tea.",
+       "餅乾！甜甜的很棒。我喜歡配茶吃餅乾。"
+      ],
+      [
+       "I usually eat dinner with her.",
+       "我通常和她一起吃晚餐。",
+       "usually = 通常。這句沒有回答「帶什麼」，而是說一起吃飯，聊天時也很自然。",
+       "That's lovely. Eating dinner together is the best gift!",
+       "真好。一起吃晚餐就是最好的禮物！"
+      ]
+     ],
+     "v": [
+      [
+       "fruit",
+       "水果",
+       "食"
+      ],
+      [
+       "banana",
+       "香蕉",
+       "食"
+      ],
+      [
+       "cookie",
+       "餅乾",
+       "食"
+      ],
+      [
+       "dinner",
+       "晚餐",
+       "食"
+      ],
+      [
+       "tea",
+       "茶",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "On the way, she meets a wolf. The wolf asks, 'Where are you going?' What should she say?",
+      "路上她遇到一隻大野狼。野狼問：「妳要去哪裡？」她應該怎麼說？"
+     ],
+     "o": [
+      [
+       "Sorry, I can't tell you.",
+       "抱歉，我不能告訴你。",
+       "禮貌地拒絕回答。can't = cannot，不能。",
+       "Smart! Never tell a stranger where you are going.",
+       "聰明！絕對不要告訴陌生人你要去哪。"
+      ],
+      [
+       "I'm going to my grandma's house.",
+       "我要去我奶奶家。",
+       "I'm going to + 地點 = 我正要去某地。grandma's house = 奶奶的家。這就是書中她的回答。",
+       "That's what she says in the book. Oh no, now the wolf knows!",
+       "書裡她就是這樣說的。糟糕，現在野狼知道了！"
+      ],
+      [
+       "Please go away!",
+       "請走開！",
+       "go away = 走開，語氣很強烈，遇到危險時可以用。",
+       "Ha! Strong answer. The wolf would be surprised.",
+       "哈！很強硬的回答。野狼會嚇一跳。"
+      ]
+     ],
+     "v": [
+      [
+       "on the way",
+       "在路上",
+       "行"
+      ],
+      [
+       "house",
+       "房子；家",
+       "住"
+      ],
+      [
+       "stranger",
+       "陌生人",
+       "其他"
+      ],
+      [
+       "go away",
+       "走開",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Red Riding Hood walks slowly and picks flowers. How do you go to school or work?",
+      "小紅帽慢慢走，還一邊摘花。你怎麼去上學或上班？"
+     ],
+     "o": [
+      [
+       "I walk. It's close.",
+       "我走路。很近。",
+       "close 在這裡是「近的」（念 /kloʊs/），不是「關」。",
+       "Walking is good exercise! Just don't stop to pick flowers and be late, ha!",
+       "走路是很好的運動！只是別停下來摘花然後遲到喔，哈！"
+      ],
+      [
+       "I take the bus.",
+       "我搭公車。",
+       "take the bus = 搭公車。也可以說 take the train、take the MRT。",
+       "The bus is easy. I take the bus too. I read books on it!",
+       "公車很方便。我也搭公車，我在車上看書！"
+      ],
+      [
+       "My mom drives me.",
+       "我媽媽開車載我。",
+       "drive someone = 開車載某人。",
+       "Nice! A car is fast. Red Riding Hood needs a car, right?",
+       "真好！車子很快。小紅帽也需要一台車，對吧？"
+      ]
+     ],
+     "v": [
+      [
+       "walk",
+       "走路",
+       "行"
+      ],
+      [
+       "bus",
+       "公車",
+       "行"
+      ],
+      [
+       "car",
+       "汽車",
+       "行"
+      ],
+      [
+       "drive",
+       "開車",
+       "行"
+      ],
+      [
+       "school",
+       "學校",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Great talk! Next time, let's talk about her red hood. Bye!",
+    "聊得真好！下次我們來聊她的紅帽子。掰掰！"
+   ]
+  },
+  {
+   "t": "The red hood",
+   "zh": "那頂紅帽子",
+   "cat": "衣",
+   "intro": [
+    "Let's talk about clothes in the story! Red Riding Hood always wears a red hood.",
+    "我們來聊故事裡的衣服吧！小紅帽總是戴著一頂紅色的帽子。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "A hood is part of a coat or a jacket. Do you like clothes with hoods?",
+      "hood 是外套或夾克上的帽子。你喜歡有帽子的衣服嗎？"
+     ],
+     "o": [
+      [
+       "Yes, I have a hoodie.",
+       "有，我有一件帽T。",
+       "hoodie = 連帽上衣／帽T，這個字就是從 hood 來的。",
+       "Me too! Hoodies are warm and comfortable.",
+       "我也是！帽T又溫暖又舒服。"
+      ],
+      [
+       "No, I like caps.",
+       "不，我喜歡棒球帽。",
+       "cap = 有帽簷的帽子（像棒球帽）；hat 是一般的帽子。",
+       "Caps are cool. They keep the sun out of your eyes.",
+       "棒球帽很酷。可以擋住照到眼睛的陽光。"
+      ],
+      [
+       "What color is your coat?",
+       "你的外套是什麼顏色？",
+       "反問對方，讓聊天繼續下去。What color = 什麼顏色。",
+       "My coat is blue. Not red, ha! I don't want to meet a wolf.",
+       "我的外套是藍色的。不是紅色，哈！我可不想遇到野狼。"
+      ]
+     ],
+     "v": [
+      [
+       "hood",
+       "兜帽",
+       "衣"
+      ],
+      [
+       "coat",
+       "外套",
+       "衣"
+      ],
+      [
+       "jacket",
+       "夾克",
+       "衣"
+      ],
+      [
+       "hoodie",
+       "帽T",
+       "衣"
+      ],
+      [
+       "cap",
+       "棒球帽",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The wolf puts on Grandma's nightgown and nightcap. Funny, right? What do you wear to bed?",
+      "野狼穿上奶奶的睡袍、戴上睡帽。很好笑吧？你睡覺穿什麼？"
+     ],
+     "o": [
+      [
+       "I wear pajamas.",
+       "我穿睡衣。",
+       "wear = 穿。pajamas = 睡衣，一定用複數。",
+       "Pajamas are the best. Mine have little stars on them.",
+       "睡衣最棒了。我的上面有小星星。"
+      ],
+      [
+       "A T-shirt and shorts.",
+       "T恤和短褲。",
+       "shorts = 短褲，也是複數。回答時可以只說名詞，不用講完整句子。",
+       "Simple and cool. Good for hot summer nights.",
+       "簡單又涼快。很適合夏天的熱夜晚。"
+      ],
+      [
+       "A wolf in a nightgown? So funny!",
+       "穿睡袍的野狼？太好笑了！",
+       "不回答問題，而是回應剛剛好笑的畫面。聊天時很自然。",
+       "I know! His big ears are under the nightcap. So silly!",
+       "對吧！他的大耳朵藏在睡帽底下。好蠢！"
+      ]
+     ],
+     "v": [
+      [
+       "nightgown",
+       "睡袍",
+       "衣"
+      ],
+      [
+       "pajamas",
+       "睡衣",
+       "衣"
+      ],
+      [
+       "T-shirt",
+       "T恤",
+       "衣"
+      ],
+      [
+       "shorts",
+       "短褲",
+       "衣"
+      ],
+      [
+       "wear",
+       "穿；戴",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "She says, 'Grandma, what big eyes you have!' If you see a strange grandma in bed, what do you do?",
+      "她說：「奶奶，妳的眼睛好大啊！」如果你看到床上有個奇怪的奶奶，你會怎麼做？"
+     ],
+     "o": [
+      [
+       "I run out the door!",
+       "我會衝出門！",
+       "run out = 跑出去。door = 門。",
+       "Good idea! Run and call for help.",
+       "好主意！快跑然後求救。"
+      ],
+      [
+       "I turn on the light.",
+       "我會把燈打開。",
+       "turn on = 打開（燈、電器）。相反是 turn off。",
+       "Smart! With the light on, she can see it's a wolf.",
+       "聰明！燈一開，她就能看到那是野狼。"
+      ],
+      [
+       "I ask, 'Why are your teeth so big?'",
+       "我會問：「妳的牙齒為什麼那麼大？」",
+       "模仿書中經典台詞。teeth 是 tooth 的複數。",
+       "Ha! That's the scariest line in the book!",
+       "哈！那是書裡最可怕的一句！"
+      ]
+     ],
+     "v": [
+      [
+       "door",
+       "門",
+       "住"
+      ],
+      [
+       "light",
+       "燈",
+       "住"
+      ],
+      [
+       "bed",
+       "床",
+       "住"
+      ],
+      [
+       "window",
+       "窗戶",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "At the end, a hunter saves them. Then they sit down and eat the cake together. What is your favorite cake?",
+      "最後獵人救了她們。然後大家坐下來一起吃蛋糕。你最喜歡什麼蛋糕？"
+     ],
+     "o": [
+      [
+       "Chocolate cake!",
+       "巧克力蛋糕！",
+       "最簡單的回答，直接說名稱就好。",
+       "Chocolate cake is my favorite too!",
+       "巧克力蛋糕也是我的最愛！"
+      ],
+      [
+       "Strawberry cake with cream.",
+       "有鮮奶油的草莓蛋糕。",
+       "with cream = 加鮮奶油。with 表示「有、加上」。",
+       "That sounds sweet and fresh. I want some now!",
+       "聽起來又甜又清爽。我現在就想吃！"
+      ],
+      [
+       "I don't like cake. I like ice cream.",
+       "我不喜歡蛋糕。我喜歡冰淇淋。",
+       "先說不喜歡，再給替代答案，是很自然的回法。",
+       "Ice cream is great too. But Grandma is sick, so no ice cream for her, ha!",
+       "冰淇淋也很棒。但奶奶生病了，她不能吃冰，哈！"
+      ]
+     ],
+     "v": [
+      [
+       "chocolate",
+       "巧克力",
+       "食"
+      ],
+      [
+       "strawberry",
+       "草莓",
+       "食"
+      ],
+      [
+       "cream",
+       "鮮奶油",
+       "食"
+      ],
+      [
+       "ice cream",
+       "冰淇淋",
+       "食"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "I love this story. Thanks for talking about it with me!",
+    "我好喜歡這個故事。謝謝你跟我一起聊！"
+   ]
+  }
+ ]
+}

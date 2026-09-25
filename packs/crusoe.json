@@ -1,0 +1,486 @@
+{
+ "id": "crusoe",
+ "v": 1,
+ "lv": "a",
+ "g": "冒險",
+ "kind": "經典名著",
+ "title": "Robinson Crusoe",
+ "zhTitle": "魯賓遜漂流記",
+ "author": "Daniel Defoe",
+ "color": "#4F6B2A",
+ "desc": "船難後獨自在荒島生活二十八年：蓋房子、種穀物、養山羊，從零打造一個家。",
+ "license": "公有領域",
+ "source": "Project Gutenberg",
+ "url": "https://www.gutenberg.org/ebooks/521",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Building a shelter",
+   "zh": "建造庇護所",
+   "cat": "住",
+   "intro": [
+    "I've been rereading 'Robinson Crusoe.' It's almost a manual for building a life from scratch.",
+    "我最近在重讀《魯賓遜漂流記》。它幾乎是一本從零打造生活的手冊。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "After the shipwreck, Crusoe salvages timber, tools, and gunpowder before the ship breaks apart. With one trip back to the wreck, what would you prioritize?",
+      "船難後，魯賓遜在船解體前搶救了木材、工具和火藥。如果只能回沉船一趟，你會優先拿什麼？"
+     ],
+     "o": [
+      [
+       "Tools, without question. Everything else follows.",
+       "毫無疑問是工具。其他的都會隨之而來。",
+       "without question = 毫無疑問。follow = 隨之而來。",
+       "Crusoe agrees. He values a carpenter's chest more than a shipload of gold.",
+       "魯賓遜同意。他認為一箱木匠工具比滿船黃金更有價值。"
+      ],
+      [
+       "Food and fresh water first.",
+       "先拿食物和淡水。",
+       "fresh water = 淡水（相對於海水）。",
+       "Sensible. His very first raft carries biscuits, rice, and cheese.",
+       "很理智。他的第一趟木筏就載了餅乾、米和起司。"
+      ],
+      [
+       "Books and paper, to keep my sanity.",
+       "書和紙，以保持神智清醒。",
+       "sanity = 理智、神智清醒。",
+       "Insightful. His journal is what keeps him mentally afloat.",
+       "有見地。他的日記就是讓他精神上不沉沒的東西。"
+      ]
+     ],
+     "v": [
+      [
+       "shipwreck",
+       "船難",
+       "行"
+      ],
+      [
+       "timber",
+       "木材",
+       "住"
+      ],
+      [
+       "raft",
+       "木筏",
+       "行"
+      ],
+      [
+       "carpenter",
+       "木匠",
+       "住"
+      ],
+      [
+       "salvage",
+       "搶救",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "He builds his dwelling against a rock face and surrounds it with a double palisade. Would you rather live in a cave or build a hut on the beach?",
+      "他背靠岩壁建造住所，外面圍了兩層木柵欄。你寧願住洞穴，還是在海灘上蓋小屋？"
+     ],
+     "o": [
+      [
+       "A cave. It's naturally insulated and sturdy.",
+       "洞穴。它天然隔熱又堅固。",
+       "insulated = 隔熱的。sturdy = 堅固的。",
+       "Good engineering instinct. Caves stay cool by day and warm at night.",
+       "很好的工程直覺。洞穴白天涼爽、晚上溫暖。"
+      ],
+      [
+       "A hut. I'd want the sea breeze and the view.",
+       "小屋。我想要海風和景色。",
+       "breeze = 微風。",
+       "Lovely, though Crusoe would warn you about storms and unexpected visitors.",
+       "很美，不過魯賓遜會警告你暴風雨和不速之客。"
+      ],
+      [
+       "Both: a cave for storms, a hut for daily life.",
+       "兩個都要：洞穴避暴風雨，小屋過日常生活。",
+       "A for X, B for Y 是很簡潔的對照句型。",
+       "That's exactly what he ends up with: his fortified 'castle' and his 'country house.'",
+       "那正是他最後擁有的：他加固過的「城堡」和他的「鄉間別墅」。"
+      ]
+     ],
+     "v": [
+      [
+       "dwelling",
+       "住所",
+       "住"
+      ],
+      [
+       "palisade",
+       "木柵欄",
+       "住"
+      ],
+      [
+       "insulated",
+       "隔熱的",
+       "住"
+      ],
+      [
+       "hut",
+       "小屋",
+       "住"
+      ],
+      [
+       "fortify",
+       "加固",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "It takes him months to make a single table and chair, since he has to split each board from a whole tree. What piece of furniture could you not live without?",
+      "他花了好幾個月才做出一張桌子和一把椅子，因為每塊木板都得從整棵樹劈出來。你家裡哪件家具是你不能沒有的？"
+     ],
+     "o": [
+      [
+       "A decent mattress. Sleep is non-negotiable.",
+       "一張像樣的床墊。睡眠沒得商量。",
+       "decent = 像樣的。non-negotiable = 沒得商量的。",
+       "Hard to argue with. Crusoe sleeps in a hammock for years; I'd be miserable.",
+       "很難反駁。魯賓遜睡吊床睡了好幾年；我會很痛苦。"
+      ],
+      [
+       "A proper desk to write at.",
+       "一張可以好好寫字的書桌。",
+       "proper = 像樣的、合適的。write at a desk = 在桌前寫字。",
+       "Same as Crusoe! The table matters most to him because of his journal.",
+       "跟魯賓遜一樣！桌子對他最重要，因為他要寫日記。"
+      ],
+      [
+       "A sofa for reading.",
+       "一張看書用的沙發。",
+       "for + V-ing 表示用途。",
+       "A true reader's answer. Comfort is underrated in survival stories.",
+       "真正讀者的答案。生存故事裡的舒適感常被低估。"
+      ]
+     ],
+     "v": [
+      [
+       "mattress",
+       "床墊",
+       "住"
+      ],
+      [
+       "hammock",
+       "吊床",
+       "住"
+      ],
+      [
+       "plank",
+       "木板",
+       "住"
+      ],
+      [
+       "furniture",
+       "家具",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Over 28 years, the island becomes his home. Where do you personally feel most 'at home,' and why?",
+      "28年間，這座島成了他的家。你個人在哪裡最有「家」的感覺？為什麼？"
+     ],
+     "o": [
+      [
+       "In my hometown, surrounded by familiar faces.",
+       "在我的家鄉，身邊都是熟悉的面孔。",
+       "hometown = 家鄉。surrounded by = 被…圍繞。",
+       "People make a place home. His isolation only ends when Friday arrives.",
+       "是人讓一個地方成為家。他的孤立直到星期五出現才結束。"
+      ],
+      [
+       "Wherever my books and my bed are.",
+       "只要有我的書和我的床，哪裡都是。",
+       "wherever = 無論哪裡。",
+       "A portable definition of home. Very modern!",
+       "可攜帶的「家」的定義。很現代！"
+      ],
+      [
+       "Honestly, I'm still searching for that place.",
+       "老實說，我還在尋找那個地方。",
+       "still = 仍然。search for = 尋找。",
+       "A thoughtful answer. Crusoe resisted the island for years before accepting it.",
+       "很深思的回答。魯賓遜也抗拒了這座島好多年才接受它。"
+      ]
+     ],
+     "v": [
+      [
+       "hometown",
+       "家鄉",
+       "住"
+      ],
+      [
+       "familiar",
+       "熟悉的",
+       "其他"
+      ],
+      [
+       "homesick",
+       "想家的",
+       "住"
+      ],
+      [
+       "settle",
+       "定居",
+       "住"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Fascinating. Next time, let's talk about how he feeds himself.",
+    "很精彩。下次來聊他怎麼養活自己。"
+   ]
+  },
+  {
+   "t": "Living off the land",
+   "zh": "靠土地生活",
+   "cat": "食",
+   "intro": [
+    "Let's move on to food. Crusoe's diet on the island is surprisingly varied.",
+    "我們接著聊食物。魯賓遜在島上的飲食出奇地多樣。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "He accidentally discovers barley and rice growing where he'd shaken out an old grain sack. Have you ever grown your own food?",
+      "他意外發現大麥和稻米長在他抖掉舊穀袋的地方。你自己種過食物嗎？"
+     ],
+     "o": [
+      [
+       "Just herbs on my balcony, like basil and mint.",
+       "只在陽台種香草，像是羅勒和薄荷。",
+       "herbs = 香草。basil = 羅勒（九層塔的近親）。mint = 薄荷。",
+       "That counts! Fresh herbs completely transform a dish.",
+       "那也算！新鮮香草能徹底改變一道菜。"
+      ],
+      [
+       "Yes, my grandparents have a vegetable plot.",
+       "有，我祖父母有一塊菜園。",
+       "vegetable plot = 菜園。",
+       "Wonderful. There's nothing like eating something you harvested yourself.",
+       "太棒了。沒有什麼比吃自己收成的東西更好。"
+      ],
+      [
+       "No, I'd probably kill every plant.",
+       "沒有，我大概會把每株植物都種死。",
+       "probably = 大概。",
+       "Ha! Crusoe's first crop fails too, because he sows it in the dry season.",
+       "哈！魯賓遜第一次也失敗了，因為他在乾季播種。"
+      ]
+     ],
+     "v": [
+      [
+       "barley",
+       "大麥",
+       "食"
+      ],
+      [
+       "grain",
+       "穀物",
+       "食"
+      ],
+      [
+       "harvest",
+       "收成",
+       "食"
+      ],
+      [
+       "sow",
+       "播種",
+       "食"
+      ],
+      [
+       "herb",
+       "香草",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "It takes him nearly a year to bake his first loaf, because he has to make a mortar, a sieve, and an oven from scratch. Which everyday food do you take most for granted?",
+      "他花了將近一年才烤出第一條麵包，因為研缽、篩子和烤爐都要從零做起。你最視為理所當然的日常食物是什麼？"
+     ],
+     "o": [
+      [
+       "Rice. We eat it every day without thinking.",
+       "米飯。我們每天吃都沒多想。",
+       "without thinking = 不假思索。",
+       "And yet every bowl represents months of labor. Crusoe would appreciate that.",
+       "然而每一碗都代表數月的勞動。魯賓遜會懂這一點。"
+      ],
+      [
+       "Bread from the corner bakery.",
+       "街角麵包店的麵包。",
+       "corner bakery = 街角的麵包店。",
+       "After reading his ordeal, I'll never complain about the price of a baguette again.",
+       "讀了他的艱辛後，我再也不會抱怨法國麵包的價格了。"
+      ],
+      [
+       "Salt, honestly.",
+       "老實說，是鹽。",
+       "honestly 放句尾 = 說真的。",
+       "An underrated answer. Preserving meat without salt would be a nightmare.",
+       "被低估的答案。沒有鹽要保存肉類簡直是惡夢。"
+      ]
+     ],
+     "v": [
+      [
+       "loaf",
+       "一條（麵包）",
+       "食"
+      ],
+      [
+       "oven",
+       "烤爐；烤箱",
+       "食"
+      ],
+      [
+       "sieve",
+       "篩子",
+       "食"
+      ],
+      [
+       "bakery",
+       "麵包店",
+       "食"
+      ],
+      [
+       "take for granted",
+       "視為理所當然",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "He domesticates wild goats for milk, butter, and cheese. Could you ever raise animals for food?",
+      "他馴化野山羊來取得奶、奶油和起司。你能飼養動物來當食物嗎？"
+     ],
+     "o": [
+      [
+       "Chickens for eggs, maybe. Not for meat.",
+       "也許養雞下蛋。但不是為了吃肉。",
+       "A, maybe. Not B. 是很簡潔的讓步句型。",
+       "A thoughtful compromise. Many urban farmers do exactly that.",
+       "深思熟慮的折衷。很多都市農夫正是這麼做的。"
+      ],
+      [
+       "No, I'm vegetarian.",
+       "不行，我吃素。",
+       "vegetarian = 素食者。",
+       "Then you'd rely on his grapes. He sun-dries them into raisins, you know.",
+       "那你就得靠他的葡萄了。你知道嗎，他會把葡萄曬成葡萄乾。"
+      ],
+      [
+       "If I had to survive, yes.",
+       "如果為了生存，會。",
+       "If I had to = 如果我不得不。假設語氣用過去式。",
+       "Survival changes priorities quickly. The novel is honest about that.",
+       "生存會很快改變優先順序。這本小說對此很誠實。"
+      ]
+     ],
+     "v": [
+      [
+       "domesticate",
+       "馴化",
+       "食"
+      ],
+      [
+       "livestock",
+       "家畜",
+       "食"
+      ],
+      [
+       "dairy",
+       "乳製品",
+       "食"
+      ],
+      [
+       "raisin",
+       "葡萄乾",
+       "食"
+      ],
+      [
+       "vegetarian",
+       "素食者",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "By the time the rescue ship arrives, he's stored enough dried food for years. Do you keep a well-stocked pantry, or shop day by day?",
+      "救援船抵達時，他已經囤了好幾年的乾糧。你會把食物櫃塞滿，還是天天買？"
+     ],
+     "o": [
+      [
+       "My pantry could survive a siege.",
+       "我的食物櫃撐得過一場圍城。",
+       "siege = 圍城。誇飾的幽默說法。",
+       "Crusoe would hire you immediately!",
+       "魯賓遜會立刻雇用你！"
+      ],
+      [
+       "Day by day. I like fresh ingredients.",
+       "天天買。我喜歡新鮮食材。",
+       "day by day = 一天一天地。ingredient = 食材。",
+       "That's the joy of city living. Crusoe didn't have a night market.",
+       "這就是城市生活的樂趣。魯賓遜可沒有夜市。"
+      ],
+      [
+       "Somewhere in between: instant noodles for emergencies.",
+       "介於兩者之間：泡麵以備不時之需。",
+       "somewhere in between = 介於兩者之間。for emergencies = 以備急用。",
+       "The universal emergency food! Very practical.",
+       "全世界通用的應急食物！很實際。"
+      ]
+     ],
+     "v": [
+      [
+       "pantry",
+       "食物儲藏櫃",
+       "食"
+      ],
+      [
+       "stock up",
+       "囤貨",
+       "食"
+      ],
+      [
+       "perishable",
+       "易腐壞的",
+       "食"
+      ],
+      [
+       "preserve",
+       "保存；醃製",
+       "食"
+      ],
+      [
+       "instant noodles",
+       "泡麵",
+       "食"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "I'll never look at a loaf of bread the same way. Thanks for the chat!",
+    "我再也不會用同樣的眼光看待一條麵包了。謝謝你陪我聊！"
+   ]
+  }
+ ]
+}

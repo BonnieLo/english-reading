@@ -1,0 +1,481 @@
+{
+ "id": "slow",
+ "v": 1,
+ "lv": "a",
+ "g": "旅遊散文",
+ "kind": "生活短文",
+ "title": "The Slow Traveler",
+ "zhTitle": "慢旅人",
+ "author": "a travel memoir",
+ "color": "#A0522D",
+ "desc": "一位拒絕搭飛機的作家，坐夜車橫越歐亞，用在地美食認識每一座城市。",
+ "license": "原創內容",
+ "source": "Page Talk 原創",
+ "url": "",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Night trains",
+   "zh": "夜車之旅",
+   "cat": "行",
+   "intro": [
+    "I'm reading a travel memoir called 'The Slow Traveler.' The author refuses to fly and crosses continents by rail!",
+    "我在讀一本叫《慢旅人》的旅行回憶錄。作者拒絕搭飛機，用鐵路橫越大陸！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "She argues that flying 'erases the distance' and robs you of the journey. Do you agree that how you travel matters as much as where you go?",
+      "她主張搭飛機「抹去了距離」，奪走了旅程本身。你同意怎麼旅行和去哪裡一樣重要嗎？"
+     ],
+     "o": [
+      [
+       "Completely. The journey is half the experience.",
+       "完全同意。旅程本身就佔了一半的體驗。",
+       "completely = 完全地。",
+       "She'd love you. She spends whole chapters just watching the landscape shift.",
+       "她會很喜歡你。她用整整幾章只在看風景變化。"
+      ],
+      [
+       "In theory, but my vacation days are limited.",
+       "理論上同意，但我的假期有限。",
+       "in theory = 理論上。limited = 有限的。",
+       "That's the privilege problem, and she acknowledges it candidly.",
+       "這就是特權的問題，她也坦率地承認了。"
+      ],
+      [
+       "Not really. I just want to arrive and explore.",
+       "不太同意。我只想抵達然後探索。",
+       "Not really = 不太，委婉的不同意。",
+       "A fair position. For many people, the destination is the whole point.",
+       "合理的立場。對很多人來說，目的地就是全部重點。"
+      ]
+     ],
+     "v": [
+      [
+       "destination",
+       "目的地",
+       "行"
+      ],
+      [
+       "landscape",
+       "風景",
+       "行"
+      ],
+      [
+       "continent",
+       "大陸；洲",
+       "行"
+      ],
+      [
+       "rail",
+       "鐵路",
+       "行"
+      ],
+      [
+       "itinerary",
+       "行程表",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "On the overnight train from Vienna to Venice, she shares a sleeper compartment with strangers. Would you be comfortable with that?",
+      "在從維也納到威尼斯的夜車上，她和陌生人共用一間臥鋪車廂。你會自在嗎？"
+     ],
+     "o": [
+      [
+       "Sure, it's a chance to meet interesting people.",
+       "當然，這是認識有趣的人的機會。",
+       "a chance to = 一個…的機會。",
+       "That's her favorite part. The best stories come from the people in the next bunk.",
+       "那是她最喜歡的部分。最好的故事都來自隔壁鋪位的人。"
+      ],
+      [
+       "I'd pay extra for a private cabin.",
+       "我會多付錢訂私人包廂。",
+       "pay extra = 額外付費。cabin = 包廂、艙房。",
+       "Totally reasonable. A good night's sleep is worth the upgrade.",
+       "完全合理。一夜好眠值得升級。"
+      ],
+      [
+       "Only with earplugs and an eye mask.",
+       "只要有耳塞和眼罩就可以。",
+       "earplugs = 耳塞。eye mask = 眼罩。",
+       "The seasoned traveler's survival kit!",
+       "資深旅人的生存工具包！"
+      ]
+     ],
+     "v": [
+      [
+       "sleeper",
+       "臥鋪車廂",
+       "行"
+      ],
+      [
+       "compartment",
+       "車廂隔間",
+       "行"
+      ],
+      [
+       "bunk",
+       "鋪位",
+       "行"
+      ],
+      [
+       "cabin",
+       "包廂；艙房",
+       "行"
+      ],
+      [
+       "upgrade",
+       "升級",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "She misses a connection in Belgrade and ends up with a nine-hour layover. How do you usually handle unexpected delays?",
+      "她在貝爾格勒錯過轉乘，最後要等九個小時。你通常怎麼面對意料之外的延誤？"
+     ],
+     "o": [
+      [
+       "I explore the area around the station.",
+       "我會去車站附近探索。",
+       "area around = 周邊地區。",
+       "Exactly what she does. That layover becomes one of the book's best chapters.",
+       "她正是這麼做的。那次轉乘等待成了書中最棒的章節之一。"
+      ],
+      [
+       "I get frustrated, I'll admit.",
+       "我承認我會很煩躁。",
+       "I'll admit = 我承認。frustrated = 挫折、煩躁的。",
+       "Completely human. Even she has a meltdown at the ticket office.",
+       "很有人性。連她都在售票處崩潰過。"
+      ],
+      [
+       "I find a café and catch up on reading.",
+       "我會找間咖啡廳補看書。",
+       "catch up on = 補做（落後的事）。",
+       "A reader's best strategy. Delays are just bonus reading time!",
+       "讀者最好的策略。延誤就是額外的閱讀時間！"
+      ]
+     ],
+     "v": [
+      [
+       "connection",
+       "轉乘班次",
+       "行"
+      ],
+      [
+       "layover",
+       "中途停留",
+       "行"
+      ],
+      [
+       "reschedule",
+       "改期",
+       "行"
+      ],
+      [
+       "refund",
+       "退款",
+       "行"
+      ],
+      [
+       "ticket office",
+       "售票處",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Her central argument is that slow travel shrinks our carbon footprint. Would environmental concerns ever change how you travel?",
+      "她的核心論點是：慢旅行能縮小碳足跡。環保考量會改變你的旅行方式嗎？"
+     ],
+     "o": [
+      [
+       "They already have. I take trains when I can.",
+       "已經改變了。能搭火車我就搭。",
+       "They already have (changed). 省略重複的動詞。",
+       "Every shift counts. Europe's night-train revival suggests it's working.",
+       "每個改變都有意義。歐洲夜車的復興顯示這是有效的。"
+      ],
+      [
+       "I'd like to, but trains are often pricier.",
+       "我想，但火車常常比較貴。",
+       "pricier = 更貴的（口語）。",
+       "A real barrier. She argues for better subsidies in the final chapter.",
+       "確實是個障礙。她在最後一章主張要有更好的補貼。"
+      ],
+      [
+       "Probably not. Convenience wins for me.",
+       "大概不會。對我來說便利最重要。",
+       "A wins = A 勝出。",
+       "An honest answer, and honesty is where real change starts.",
+       "誠實的回答，而誠實正是真正改變的起點。"
+      ]
+     ],
+     "v": [
+      [
+       "carbon footprint",
+       "碳足跡",
+       "行"
+      ],
+      [
+       "emission",
+       "排放",
+       "其他"
+      ],
+      [
+       "subsidy",
+       "補貼",
+       "其他"
+      ],
+      [
+       "eco-friendly",
+       "環保的",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "All aboard for the next chapter! Next time, let's talk about food on the road.",
+    "下一章要發車了！下次來聊旅途中的美食。"
+   ]
+  },
+  {
+   "t": "Eating like a local",
+   "zh": "像當地人一樣吃",
+   "cat": "食",
+   "intro": [
+    "The second half of 'The Slow Traveler' is basically a love letter to local food.",
+    "《慢旅人》的後半部基本上是一封寫給在地美食的情書。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "She has one rule: never eat anywhere with a menu in five languages. Is that a smart rule or a bit snobbish?",
+      "她有一條規則：絕不在菜單有五種語言的地方吃飯。這是聰明的規則，還是有點勢利？"
+     ],
+     "o": [
+      [
+       "Smart. Tourist traps are real.",
+       "聰明。觀光客陷阱真的存在。",
+       "tourist trap = 觀光客陷阱（貴又不道地的店）。",
+       "Very true. The prices double and the authenticity halves.",
+       "真的。價格加倍，道地程度減半。"
+      ],
+      [
+       "A bit snobbish. Some great places welcome tourists.",
+       "有點勢利。有些很棒的店也歡迎觀光客。",
+       "a bit = 有點。welcome 當動詞 = 歡迎。",
+       "Fair point. Plenty of family restaurants translate their menus out of kindness.",
+       "說得好。很多家庭餐館翻譯菜單是出於好意。"
+      ],
+      [
+       "It's a good rule of thumb, not an absolute law.",
+       "這是個不錯的經驗法則，不是絕對定律。",
+       "rule of thumb = 經驗法則。absolute = 絕對的。",
+       "A nuanced take. She actually breaks it herself in Lisbon.",
+       "很有層次的看法。她自己在里斯本就破例了。"
+      ]
+     ],
+     "v": [
+      [
+       "menu",
+       "菜單",
+       "食"
+      ],
+      [
+       "authentic",
+       "道地的",
+       "食"
+      ],
+      [
+       "tourist trap",
+       "觀光客陷阱",
+       "行"
+      ],
+      [
+       "local",
+       "在地的",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "In Istanbul, she eats grilled fish sandwiches straight off the boats. What street food would you recommend to a visitor in your city?",
+      "在伊斯坦堡，她直接在船邊吃烤魚三明治。你會推薦來你城市的旅客吃什麼街頭小吃？"
+     ],
+     "o": [
+      [
+       "Braised pork rice. It's simple but iconic.",
+       "滷肉飯。簡單卻具代表性。",
+       "braised = 燉滷的。iconic = 具代表性的。",
+       "I'm sure that's on her list for the next book!",
+       "我很確定那會在她下一本書的清單上！"
+      ],
+      [
+       "Oyster omelets at the night market.",
+       "夜市的蚵仔煎。",
+       "oyster = 牡蠣、蚵仔。omelet = 煎蛋餅。",
+       "The texture sounds fascinating: crispy, chewy, and savory all at once.",
+       "口感聽起來很迷人：酥脆、Q彈、鹹香一次到位。"
+      ],
+      [
+       "Scallion pancakes, fresh off the griddle.",
+       "剛從鐵板上起鍋的蔥油餅。",
+       "scallion = 青蔥。fresh off = 剛從…出來。griddle = 鐵板煎鍋。",
+       "'Fresh off the griddle' is the key phrase. Street food is all about timing!",
+       "「剛起鍋」是關鍵。街頭小吃重點就在時機！"
+      ]
+     ],
+     "v": [
+      [
+       "street food",
+       "街頭小吃",
+       "食"
+      ],
+      [
+       "grilled",
+       "烤的",
+       "食"
+      ],
+      [
+       "braised",
+       "滷的；燉的",
+       "食"
+      ],
+      [
+       "savory",
+       "鹹香的",
+       "食"
+      ],
+      [
+       "night market",
+       "夜市",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "In Oaxaca, she takes a cooking class and learns to grind chocolate by hand for mole sauce. Would you rather take a cooking class or join a food tour?",
+      "在瓦哈卡，她上了烹飪課，學會手工研磨巧克力做莫雷醬。你寧願上烹飪課，還是參加美食導覽？"
+     ],
+     "o": [
+      [
+       "A cooking class. I want to bring the skill home.",
+       "烹飪課。我想把技能帶回家。",
+       "bring ... home = 把…帶回家。",
+       "That's her reasoning too: a recipe is a souvenir that never gathers dust.",
+       "她也是這麼想：食譜是永遠不會積灰塵的紀念品。"
+      ],
+      [
+       "A food tour. More variety in less time.",
+       "美食導覽。花更少時間吃到更多樣。",
+       "more ... in less time = 用更少時間得到更多。",
+       "Efficient! A good guide also tells you the stories behind each dish.",
+       "很有效率！好的導遊還會告訴你每道菜背後的故事。"
+      ],
+      [
+       "Both, ideally on the same day.",
+       "兩個都要，最好在同一天。",
+       "ideally = 理想情況下。",
+       "Ambitious! Just remember to pace your appetite.",
+       "野心勃勃！只是要記得控制好食量。"
+      ]
+     ],
+     "v": [
+      [
+       "grind",
+       "研磨",
+       "食"
+      ],
+      [
+       "spice",
+       "香料",
+       "食"
+      ],
+      [
+       "appetite",
+       "食慾",
+       "食"
+      ],
+      [
+       "souvenir",
+       "紀念品",
+       "行"
+      ],
+      [
+       "dish",
+       "菜餚",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "She ends the book by saying that sharing a meal is the fastest way to understand a culture. In your opinion, which dish best represents your culture?",
+      "她在書末說，共享一餐是了解一種文化最快的方式。在你看來，哪道菜最能代表你的文化？"
+     ],
+     "o": [
+      [
+       "Hot pot. It's all about gathering together.",
+       "火鍋。重點就是大家聚在一起。",
+       "be all about = 重點全在於。gather = 聚集。",
+       "A beautiful choice. The shared pot is the culture itself.",
+       "很美的選擇。共用的那一鍋本身就是文化。"
+      ],
+      [
+       "Beef noodle soup. It carries a lot of history.",
+       "牛肉麵。它承載了很多歷史。",
+       "carry history = 承載歷史。",
+       "Dishes shaped by migration always have the richest stories.",
+       "由遷徙塑造的菜總是有最豐富的故事。"
+      ],
+      [
+       "A home-cooked family dinner, not one single dish.",
+       "一頓家常晚餐，而不是某一道菜。",
+       "home-cooked = 家常的、在家煮的。",
+       "That may be the wisest answer of all. Culture lives at the family table.",
+       "這可能是最有智慧的答案。文化就活在家庭餐桌上。"
+      ]
+     ],
+     "v": [
+      [
+       "hot pot",
+       "火鍋",
+       "食"
+      ],
+      [
+       "broth",
+       "高湯",
+       "食"
+      ],
+      [
+       "home-cooked",
+       "家常的",
+       "食"
+      ],
+      [
+       "represent",
+       "代表",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Now I'm planning a slow trip to Taiwan just for the food. Thanks for sharing!",
+    "我現在想為了美食規劃一趟台灣慢旅行了。謝謝你的分享！"
+   ]
+  }
+ ]
+}

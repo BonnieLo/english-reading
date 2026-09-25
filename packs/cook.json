@@ -1,0 +1,476 @@
+{
+ "id": "cook",
+ "v": 1,
+ "lv": "b",
+ "g": "生活實用",
+ "kind": "生活短文",
+ "title": "Easy Recipes for Everyone",
+ "zhTitle": "人人都會的簡單食譜",
+ "author": "a beginner's cookbook",
+ "color": "#C98A1B",
+ "desc": "一本給新手的食譜書，從早餐、買菜到簡單晚餐，一步一步教你。",
+ "license": "原創內容",
+ "source": "Page Talk 原創",
+ "url": "",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Breakfast time",
+   "zh": "早餐時間",
+   "cat": "食",
+   "intro": [
+    "I'm reading a cookbook called 'Easy Recipes for Everyone.' The first chapter is about breakfast!",
+    "我在看一本叫《人人都會的簡單食譜》的書。第一章是早餐！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "What do you usually eat for breakfast?",
+      "你早餐通常吃什麼？"
+     ],
+     "o": [
+      [
+       "Eggs and toast.",
+       "蛋和吐司。",
+       "toast = 烤吐司。eggs 用複數。",
+       "Classic! The book has a recipe for scrambled eggs.",
+       "經典！這本書有炒蛋的食譜。"
+      ],
+      [
+       "Rice balls from the store.",
+       "便利商店的飯糰。",
+       "rice ball = 飯糰。from the store = 從商店買的。",
+       "Oh, I love rice balls! Quick and yummy.",
+       "喔，我愛飯糰！又快又好吃。"
+      ],
+      [
+       "I don't eat breakfast.",
+       "我不吃早餐。",
+       "直接說出自己的習慣。",
+       "The book says breakfast gives you energy. Try a banana!",
+       "書上說早餐能給你能量。試試吃根香蕉吧！"
+      ]
+     ],
+     "v": [
+      [
+       "breakfast",
+       "早餐",
+       "食"
+      ],
+      [
+       "egg",
+       "蛋",
+       "食"
+      ],
+      [
+       "toast",
+       "吐司",
+       "食"
+      ],
+      [
+       "rice ball",
+       "飯糰",
+       "食"
+      ],
+      [
+       "recipe",
+       "食譜",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The first recipe is pancakes. You need flour, milk, and eggs. Can you cook?",
+      "第一個食譜是鬆餅。你需要麵粉、牛奶和蛋。你會煮飯嗎？"
+     ],
+     "o": [
+      [
+       "Yes, a little.",
+       "會，一點點。",
+       "a little = 一點點。",
+       "Great! Pancakes are easy. You can do it!",
+       "太好了！鬆餅很簡單。你一定行！"
+      ],
+      [
+       "No, I always burn things!",
+       "不會，我總是把東西燒焦！",
+       "burn = 燒焦。",
+       "Ha! Use low heat and a good pan. That's the secret.",
+       "哈！用小火和好的平底鍋。那就是秘訣。"
+      ],
+      [
+       "My dad cooks for me.",
+       "我爸爸煮給我吃。",
+       "cook for someone = 煮給某人吃。",
+       "Lucky you! Maybe you can make pancakes for him.",
+       "你真幸運！也許你可以做鬆餅給他吃。"
+      ]
+     ],
+     "v": [
+      [
+       "pancake",
+       "鬆餅",
+       "食"
+      ],
+      [
+       "flour",
+       "麵粉",
+       "食"
+      ],
+      [
+       "cook",
+       "煮；做菜",
+       "食"
+      ],
+      [
+       "pan",
+       "平底鍋",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "What do you put on pancakes?",
+      "你在鬆餅上放什麼？"
+     ],
+     "o": [
+      [
+       "Honey!",
+       "蜂蜜！",
+       "honey = 蜂蜜。",
+       "Sweet and golden. Bees work hard for that!",
+       "又甜又金黃。蜜蜂辛苦做出來的！"
+      ],
+      [
+       "Butter and syrup.",
+       "奶油和糖漿。",
+       "butter = 奶油；syrup = 糖漿（常指楓糖漿 maple syrup）。",
+       "The American way! Very sweet.",
+       "美式吃法！非常甜。"
+      ],
+      [
+       "Fruit, like strawberries.",
+       "水果，像是草莓。",
+       "like = 例如。",
+       "Healthy and pretty on the plate. Good choice!",
+       "健康，放在盤子上也漂亮。好選擇！"
+      ]
+     ],
+     "v": [
+      [
+       "honey",
+       "蜂蜜",
+       "食"
+      ],
+      [
+       "butter",
+       "奶油",
+       "食"
+      ],
+      [
+       "syrup",
+       "糖漿",
+       "食"
+      ],
+      [
+       "plate",
+       "盤子",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "What do you drink in the morning?",
+      "你早上喝什麼？"
+     ],
+     "o": [
+      [
+       "Coffee. I need it!",
+       "咖啡。我不能沒有它！",
+       "I need it = 我很需要它，口語常用。",
+       "Me too! Coffee wakes me up.",
+       "我也是！咖啡讓我清醒。"
+      ],
+      [
+       "Soy milk.",
+       "豆漿。",
+       "soy milk = 豆漿。",
+       "Soy milk is popular in Taiwan, right? I want to try it.",
+       "豆漿在台灣很受歡迎對吧？我想試試。"
+      ],
+      [
+       "Just water.",
+       "就喝水。",
+       "just = 只是、就。",
+       "Simple and healthy! Some people like juice, but water is the best.",
+       "簡單又健康！有些人喜歡果汁，但水最好。"
+      ]
+     ],
+     "v": [
+      [
+       "coffee",
+       "咖啡",
+       "食"
+      ],
+      [
+       "soy milk",
+       "豆漿",
+       "食"
+      ],
+      [
+       "juice",
+       "果汁",
+       "食"
+      ],
+      [
+       "water",
+       "水",
+       "食"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Now I'm hungry! Let's talk about food shopping next time.",
+    "我現在餓了！下次來聊買菜吧。"
+   ]
+  },
+  {
+   "t": "At the supermarket",
+   "zh": "在超市",
+   "cat": "食",
+   "intro": [
+    "Chapter two of the cookbook is about shopping for food.",
+    "食譜書的第二章是關於買食物。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Where do you buy food?",
+      "你在哪裡買食物？"
+     ],
+     "o": [
+      [
+       "At the supermarket.",
+       "在超市。",
+       "at + 地點。",
+       "The book says: make a shopping list first!",
+       "書上說：先寫購物清單！"
+      ],
+      [
+       "At the traditional market.",
+       "在傳統市場。",
+       "traditional market = 傳統市場。",
+       "Markets have very fresh vegetables. I love them.",
+       "市場的蔬菜很新鮮。我很喜歡。"
+      ],
+      [
+       "Online. It's easy.",
+       "網路上。很方便。",
+       "online = 在網路上。",
+       "Smart! Food comes to your door.",
+       "聰明！食物直接送到你家門口。"
+      ]
+     ],
+     "v": [
+      [
+       "supermarket",
+       "超市",
+       "食"
+      ],
+      [
+       "market",
+       "市場",
+       "食"
+      ],
+      [
+       "vegetable",
+       "蔬菜",
+       "食"
+      ],
+      [
+       "shopping list",
+       "購物清單",
+       "食"
+      ],
+      [
+       "fresh",
+       "新鮮的",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The book says to buy lots of vegetables. Which vegetable do you like?",
+      "書上說要多買蔬菜。你喜歡哪種蔬菜？"
+     ],
+     "o": [
+      [
+       "Carrots.",
+       "紅蘿蔔。",
+       "carrot = 紅蘿蔔。",
+       "Carrots are good for your eyes!",
+       "紅蘿蔔對眼睛很好！"
+      ],
+      [
+       "Broccoli.",
+       "花椰菜。",
+       "broccoli = 綠花椰菜。",
+       "Broccoli looks like a little tree!",
+       "花椰菜看起來像小樹！"
+      ],
+      [
+       "I don't like vegetables.",
+       "我不喜歡蔬菜。",
+       "誠實說出不喜歡，也是一種回答。",
+       "Ha! Try them in soup with tomatoes and onions. You can't taste them much.",
+       "哈！跟番茄、洋蔥一起煮湯試試。吃不太出來。"
+      ]
+     ],
+     "v": [
+      [
+       "carrot",
+       "紅蘿蔔",
+       "食"
+      ],
+      [
+       "broccoli",
+       "花椰菜",
+       "食"
+      ],
+      [
+       "onion",
+       "洋蔥",
+       "食"
+      ],
+      [
+       "tomato",
+       "番茄",
+       "食"
+      ],
+      [
+       "soup",
+       "湯",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "At the checkout, the cashier asks, 'Do you need a bag?' What do you say?",
+      "結帳時，收銀員問：「需要袋子嗎？」你怎麼說？"
+     ],
+     "o": [
+      [
+       "No, thanks. I have one.",
+       "不用，謝謝。我有帶。",
+       "No, thanks. 是禮貌的拒絕。",
+       "Good for the Earth! Always bring your own bag.",
+       "對地球很好！記得自己帶袋子。"
+      ],
+      [
+       "Yes, please.",
+       "要，麻煩你。",
+       "Yes, please. 是禮貌的接受。",
+       "Okay! In many stores, you pay a little for a bag.",
+       "好的！很多店的袋子要付一點錢。"
+      ],
+      [
+       "How much is it?",
+       "多少錢？",
+       "How much = 多少錢。問價格最常用的一句。",
+       "Usually the price is just one or two dollars.",
+       "價格通常只要一兩塊錢。"
+      ]
+     ],
+     "v": [
+      [
+       "checkout",
+       "結帳櫃台",
+       "食"
+      ],
+      [
+       "cashier",
+       "收銀員",
+       "其他"
+      ],
+      [
+       "bag",
+       "袋子",
+       "其他"
+      ],
+      [
+       "price",
+       "價格",
+       "其他"
+      ],
+      [
+       "pay",
+       "付錢",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Last question! What do you cook with the food you buy?",
+      "最後一題！你會用買來的食物煮什麼？"
+     ],
+     "o": [
+      [
+       "Fried rice.",
+       "炒飯。",
+       "fried = 炒的、炸的。",
+       "Fried rice is fast and uses leftovers. Perfect!",
+       "炒飯很快，又能用掉剩菜。完美！"
+      ],
+      [
+       "Noodle soup.",
+       "湯麵。",
+       "noodle = 麵條。",
+       "Warm and nice on a cold day.",
+       "冷天吃暖暖的很棒。"
+      ],
+      [
+       "A salad.",
+       "沙拉。",
+       "salad = 沙拉。",
+       "No fire needed! Just wash and cut.",
+       "不用開火！洗一洗、切一切就好。"
+      ]
+     ],
+     "v": [
+      [
+       "fried rice",
+       "炒飯",
+       "食"
+      ],
+      [
+       "noodle",
+       "麵",
+       "食"
+      ],
+      [
+       "salad",
+       "沙拉",
+       "食"
+      ],
+      [
+       "leftovers",
+       "剩菜",
+       "食"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Cooking is fun, right? See you next time!",
+    "做菜很好玩吧？下次見！"
+   ]
+  }
+ ]
+}

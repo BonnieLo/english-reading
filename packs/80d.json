@@ -1,0 +1,476 @@
+{
+ "id": "80d",
+ "v": 1,
+ "lv": "i",
+ "g": "冒險",
+ "kind": "經典名著",
+ "title": "Around the World in Eighty Days",
+ "zhTitle": "環遊世界八十天",
+ "author": "Jules Verne",
+ "color": "#8C5A2B",
+ "desc": "福格先生打賭能在八十天內環遊世界，搭火車、汽船，甚至騎大象和時間賽跑。",
+ "license": "公有領域",
+ "source": "Project Gutenberg",
+ "url": "https://www.gutenberg.org/ebooks/103",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Racing against time",
+   "zh": "和時間賽跑",
+   "cat": "行",
+   "intro": [
+    "I'm reading 'Around the World in Eighty Days' by Jules Verne. Phileas Fogg bets he can travel around the world in just 80 days!",
+    "我在讀凡爾納的《環遊世界八十天》。福格先生打賭他能在八十天內環遊世界！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Fogg uses trains, steamships, and even an elephant. Which way of traveling sounds the most exciting to you?",
+      "福格搭火車、汽船，甚至騎大象。哪種旅行方式你覺得最刺激？"
+     ],
+     "o": [
+      [
+       "The elephant, definitely!",
+       "當然是大象！",
+       "definitely = 絕對、當然，用來加強語氣。",
+       "Same here! In India, they ride an elephant through the jungle because the railway isn't finished.",
+       "我也是！在印度，因為鐵路還沒蓋完，他們騎大象穿越叢林。"
+      ],
+      [
+       "Steamships. I love the ocean.",
+       "汽船。我愛海洋。",
+       "steamship = 蒸汽船。",
+       "Ocean journeys were slow back then, but so romantic.",
+       "那時候的海上旅程很慢，但很浪漫。"
+      ],
+      [
+       "Honestly, I'd rather fly.",
+       "老實說，我寧願搭飛機。",
+       "honestly = 老實說。I'd rather = 我寧願。",
+       "Ha! There were no planes in 1872. That's why it took 80 days!",
+       "哈！1872年還沒有飛機。所以才要八十天！"
+      ]
+     ],
+     "v": [
+      [
+       "steamship",
+       "蒸汽船",
+       "行"
+      ],
+      [
+       "railway",
+       "鐵路",
+       "行"
+      ],
+      [
+       "journey",
+       "旅程",
+       "行"
+      ],
+      [
+       "fly",
+       "搭飛機",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Fogg follows a very strict schedule. When you travel, do you plan everything or just go?",
+      "福格嚴格按照時間表行動。你旅行時會規劃好一切，還是說走就走？"
+     ],
+     "o": [
+      [
+       "I plan every detail in advance.",
+       "我會事先規劃每個細節。",
+       "in advance = 事先。detail = 細節。",
+       "You're just like Fogg! He knows every train timetable by heart.",
+       "你就像福格！他把每張火車時刻表都背起來了。"
+      ],
+      [
+       "I book a hotel and decide the rest later.",
+       "我會先訂飯店，其他的之後再決定。",
+       "book 當動詞 = 預訂。the rest = 剩下的部分。",
+       "That's a smart balance. A place to sleep is the most important thing.",
+       "這是聰明的平衡。有地方睡最重要。"
+      ],
+      [
+       "I just go with the flow.",
+       "我就隨遇而安。",
+       "go with the flow = 順其自然，常用片語。",
+       "Passepartout, his servant, would love traveling with you!",
+       "他的僕人路路通會很愛跟你一起旅行！"
+      ]
+     ],
+     "v": [
+      [
+       "schedule",
+       "行程；時間表",
+       "行"
+      ],
+      [
+       "timetable",
+       "時刻表",
+       "行"
+      ],
+      [
+       "book a hotel",
+       "訂飯店",
+       "行"
+      ],
+      [
+       "hotel",
+       "飯店",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "In the story, a train stops because a bridge is broken. Have you ever had a delay while traveling?",
+      "故事中，火車因為橋壞了而停下。你旅行時遇過延誤嗎？"
+     ],
+     "o": [
+      [
+       "Yes, my flight was delayed for five hours.",
+       "有，我的班機延誤了五小時。",
+       "be delayed = 被延誤。flight = 班機。",
+       "Five hours! That's painful. Fogg would be so nervous.",
+       "五小時！好痛苦。福格一定很緊張。"
+      ],
+      [
+       "I once missed my train.",
+       "我曾經錯過火車。",
+       "once = 曾經。miss = 錯過。",
+       "Oh no! Fogg always carries extra money for new tickets in moments like that.",
+       "糟糕！福格總是帶著額外的錢，在那種時候買新票。"
+      ],
+      [
+       "Not really. I'm lucky.",
+       "沒有耶。我很幸運。",
+       "Not really = 不太有，比直接說 No 柔和。",
+       "Lucky you! Fogg is not so lucky. Everything goes wrong for him.",
+       "你真幸運！福格就沒那麼幸運，什麼都不順。"
+      ]
+     ],
+     "v": [
+      [
+       "delay",
+       "延誤",
+       "行"
+      ],
+      [
+       "flight",
+       "班機",
+       "行"
+      ],
+      [
+       "ticket",
+       "票",
+       "行"
+      ],
+      [
+       "platform",
+       "月台",
+       "行"
+      ],
+      [
+       "miss",
+       "錯過",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "At the end, Fogg thinks he's one day late, but he forgot about time zones! Have you ever had jet lag?",
+      "結局福格以為晚了一天，但他忘了時區！你有過時差嗎？"
+     ],
+     "o": [
+      [
+       "Yes, I couldn't sleep for days.",
+       "有，我好幾天睡不著。",
+       "couldn't = 無法（過去式）。for days = 好幾天。",
+       "Jet lag is the worst. I drink lots of water when I arrive.",
+       "時差最糟了。我抵達時會喝很多水。"
+      ],
+      [
+       "No, I've never flown that far.",
+       "沒有，我沒飛過那麼遠。",
+       "have never flown = 從未飛過（現在完成式）。",
+       "Someday you will! Then you'll understand Fogg's confusion.",
+       "總有一天會的！到時你就懂福格的困惑了。"
+      ],
+      [
+       "That ending is so clever!",
+       "那個結局太聰明了！",
+       "不直接回答，而是評論故事，也是很好的回應。",
+       "Right? Traveling east, he gained a whole day without knowing it.",
+       "對吧？一路往東走，他在不知不覺中多賺了一整天。"
+      ]
+     ],
+     "v": [
+      [
+       "time zone",
+       "時區",
+       "行"
+      ],
+      [
+       "jet lag",
+       "時差",
+       "行"
+      ],
+      [
+       "east",
+       "東方",
+       "行"
+      ],
+      [
+       "arrive",
+       "抵達",
+       "行"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "What a trip! Next time, let's talk about packing for it.",
+    "好一趟旅程！下次來聊聊怎麼打包吧。"
+   ]
+  },
+  {
+   "t": "Packing for a long trip",
+   "zh": "長途旅行的行李",
+   "cat": "衣",
+   "intro": [
+    "Let's talk about packing! Fogg leaves London with just one small bag.",
+    "我們來聊打包！福格只帶一個小袋子就離開倫敦。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Fogg packs only two shirts and three pairs of socks. How many clothes do you pack for a trip?",
+      "福格只帶兩件襯衫和三雙襪子。你旅行帶多少衣服？"
+     ],
+     "o": [
+      [
+       "Way too many. My suitcase is always full.",
+       "太多了。我的行李箱總是滿的。",
+       "way too many = 多太多了，way 用來加強語氣。suitcase = 行李箱。",
+       "Ha! Me too. I always pack clothes I never wear.",
+       "哈！我也是。我總是帶一些根本不會穿的衣服。"
+      ],
+      [
+       "Just enough for each day.",
+       "剛好每天夠穿。",
+       "just enough = 剛剛好。",
+       "Very organized! Fogg would approve.",
+       "很有條理！福格會認同的。"
+      ],
+      [
+       "I pack light and buy things there.",
+       "我輕裝出發，到當地再買。",
+       "pack light = 輕裝打包。",
+       "That's exactly Fogg's plan! He buys what he needs on the way.",
+       "這正是福格的計畫！他路上需要什麼就買什麼。"
+      ]
+     ],
+     "v": [
+      [
+       "pack",
+       "打包",
+       "衣"
+      ],
+      [
+       "suitcase",
+       "行李箱",
+       "行"
+      ],
+      [
+       "pair",
+       "一雙；一對",
+       "衣"
+      ],
+      [
+       "socks",
+       "襪子",
+       "衣"
+      ],
+      [
+       "backpack",
+       "背包",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "He travels through hot India and snowy America. What do you wear in really cold weather?",
+      "他穿越炎熱的印度和下雪的美國。你在很冷的天氣穿什麼？"
+     ],
+     "o": [
+      [
+       "A thick down jacket and a scarf.",
+       "厚羽絨外套和圍巾。",
+       "down jacket = 羽絨外套。scarf = 圍巾。",
+       "Smart. In the story, they cross the snowy plains of America.",
+       "聰明。故事中他們穿越美國的雪原。"
+      ],
+      [
+       "Layers. A sweater under my coat.",
+       "洋蔥式穿法。外套裡面穿毛衣。",
+       "layers = 多層穿搭。sweater = 毛衣。",
+       "Layers are the best. You can take one off when it gets warm.",
+       "多層穿最好了，變熱時可以脫掉一件。"
+      ],
+      [
+       "Gloves! My hands get cold easily.",
+       "手套！我的手很容易冷。",
+       "gloves = 手套（通常用複數）。easily = 容易地。",
+       "Mine too. Cold hands make everything harder.",
+       "我也是。手冷做什麼都比較難。"
+      ]
+     ],
+     "v": [
+      [
+       "down jacket",
+       "羽絨外套",
+       "衣"
+      ],
+      [
+       "scarf",
+       "圍巾",
+       "衣"
+      ],
+      [
+       "sweater",
+       "毛衣",
+       "衣"
+      ],
+      [
+       "gloves",
+       "手套",
+       "衣"
+      ],
+      [
+       "layer",
+       "（衣服的）一層",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "In hot places, people in the book wear light cotton clothes. What fabric do you like in summer?",
+      "在炎熱的地方，書中的人穿輕薄的棉質衣服。你夏天喜歡什麼材質？"
+     ],
+     "o": [
+      [
+       "Cotton. It's soft and cool.",
+       "棉。柔軟又涼爽。",
+       "cotton = 棉。",
+       "Cotton is classic. Easy to wash, too.",
+       "棉是經典。也很好洗。"
+      ],
+      [
+       "Linen, even though it wrinkles.",
+       "亞麻，雖然它容易皺。",
+       "linen = 亞麻。even though = 雖然。wrinkle = 起皺。",
+       "Linen looks so elegant. The wrinkles are part of the style!",
+       "亞麻看起來很優雅。皺褶也是風格的一部分！"
+      ],
+      [
+       "Sportswear that dries quickly.",
+       "快乾的運動服。",
+       "sportswear = 運動服。dry quickly = 乾得快。",
+       "Very practical, especially if you sweat a lot.",
+       "很實用，尤其是如果你很會流汗。"
+      ]
+     ],
+     "v": [
+      [
+       "fabric",
+       "布料；材質",
+       "衣"
+      ],
+      [
+       "cotton",
+       "棉",
+       "衣"
+      ],
+      [
+       "linen",
+       "亞麻",
+       "衣"
+      ],
+      [
+       "wrinkle",
+       "皺褶；起皺",
+       "衣"
+      ],
+      [
+       "sweat",
+       "流汗",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Passepartout loses his shoes at one point and has to run barefoot! What's the one item you never travel without?",
+      "路路通有一次弄丟鞋子，只好光著腳跑！你旅行時一定會帶的一樣東西是什麼？"
+     ],
+     "o": [
+      [
+       "Comfortable walking shoes.",
+       "好走的鞋。",
+       "comfortable = 舒適的。",
+       "Very wise, after hearing about poor Passepartout!",
+       "聽完可憐的路路通的故事，這很明智！"
+      ],
+      [
+       "My phone charger.",
+       "我的手機充電器。",
+       "charger = 充電器。",
+       "Of course! Today, Fogg would carry a power bank.",
+       "當然！換成今天，福格一定會帶行動電源。"
+      ],
+      [
+       "My passport, of course.",
+       "當然是我的護照。",
+       "passport = 護照。of course = 當然。",
+       "The most important one! Without it, no trip at all.",
+       "最重要的一樣！沒有它就完全出不了門。"
+      ]
+     ],
+     "v": [
+      [
+       "barefoot",
+       "赤腳的",
+       "衣"
+      ],
+      [
+       "sneakers",
+       "運動鞋",
+       "衣"
+      ],
+      [
+       "charger",
+       "充電器",
+       "其他"
+      ],
+      [
+       "passport",
+       "護照",
+       "行"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Great chat! Maybe I'll pack lighter next time, like Fogg.",
+    "聊得很開心！也許我下次會像福格一樣輕裝打包。"
+   ]
+  }
+ ]
+}

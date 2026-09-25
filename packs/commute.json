@@ -1,0 +1,471 @@
+{
+ "id": "commute",
+ "v": 1,
+ "lv": "i",
+ "g": "生活實用",
+ "kind": "生活短文",
+ "title": "The City Commuter's Handbook",
+ "zhTitle": "城市通勤生存手冊",
+ "author": "a practical guide",
+ "color": "#39706A",
+ "desc": "一本給城市上班族的實用指南：尖峰時刻怎麼搭車、第一次租房要注意什麼。",
+ "license": "原創內容",
+ "source": "Page Talk 原創",
+ "url": "",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Rush hour",
+   "zh": "尖峰時刻",
+   "cat": "行",
+   "intro": [
+    "This book is a guide for people living in big cities. Chapter one: surviving rush hour!",
+    "這本書是給住在大城市的人的指南。第一章：如何在尖峰時刻生存！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "The author says the subway at 8 a.m. is like a can of sardines. Is your commute crowded?",
+      "作者說早上八點的地鐵就像沙丁魚罐頭。你的通勤很擠嗎？"
+     ],
+     "o": [
+      [
+       "Yes, I can barely move.",
+       "對，我幾乎動不了。",
+       "barely = 幾乎不。",
+       "That sounds stressful. The book suggests standing near the doors.",
+       "聽起來壓力好大。書上建議站在門附近。"
+      ],
+      [
+       "Not bad. I leave home early.",
+       "還好。我很早出門。",
+       "leave home = 出門。",
+       "Smart! The book calls that 'beating the crowd.'",
+       "聰明！書上叫這個「避開人潮」。"
+      ],
+      [
+       "I ride a scooter, so no crowds.",
+       "我騎機車，所以不會擠。",
+       "scooter = 機車（速克達）。",
+       "Scooters are so common in Taiwan! Just be careful in heavy traffic.",
+       "機車在台灣好普遍！車多的時候要小心喔。"
+      ]
+     ],
+     "v": [
+      [
+       "commute",
+       "通勤",
+       "行"
+      ],
+      [
+       "subway",
+       "地鐵",
+       "行"
+      ],
+      [
+       "crowded",
+       "擁擠的",
+       "行"
+      ],
+      [
+       "scooter",
+       "機車",
+       "行"
+      ],
+      [
+       "traffic",
+       "交通；車流",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Chapter two is about saving money on transportation. How do you pay for your rides?",
+      "第二章講交通怎麼省錢。你怎麼付車資？"
+     ],
+     "o": [
+      [
+       "I use a transit card.",
+       "我用交通卡。",
+       "transit card = 交通卡（像悠遊卡）。",
+       "Easy! Just tap and go.",
+       "很方便！嗶一下就走。"
+      ],
+      [
+       "I have a monthly pass.",
+       "我有月票。",
+       "monthly pass = 月票。",
+       "The book says a monthly pass saves the most if you ride every day.",
+       "書上說如果每天搭，月票最省。"
+      ],
+      [
+       "I pay with my phone.",
+       "我用手機付。",
+       "pay with = 用…付款。",
+       "Very modern! No need to carry a wallet.",
+       "很現代！不用帶錢包。"
+      ]
+     ],
+     "v": [
+      [
+       "fare",
+       "車資",
+       "行"
+      ],
+      [
+       "transit card",
+       "交通卡",
+       "行"
+      ],
+      [
+       "monthly pass",
+       "月票",
+       "行"
+      ],
+      [
+       "transfer",
+       "轉乘",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The author hates it when people eat smelly food on the train. What bothers you most on public transportation?",
+      "作者很討厭有人在車上吃味道重的食物。大眾運輸上什麼最讓你困擾？"
+     ],
+     "o": [
+      [
+       "People talking loudly on the phone.",
+       "大聲講電話的人。",
+       "loudly = 大聲地。",
+       "Oh yes, the whole train hears about their private life!",
+       "喔對，整節車廂都聽到他們的私事！"
+      ],
+      [
+       "People who don't give up their seats.",
+       "不讓座的人。",
+       "give up one's seat = 讓座。",
+       "Good point. Priority seats are there for a reason.",
+       "說得好。博愛座的存在是有原因的。"
+      ],
+      [
+       "Honestly, nothing really bothers me.",
+       "老實說，沒什麼讓我困擾的。",
+       "nothing really = 沒有什麼真的…。",
+       "You're very patient! The author should learn from you.",
+       "你真有耐心！作者應該跟你學。"
+      ]
+     ],
+     "v": [
+      [
+       "public transportation",
+       "大眾運輸",
+       "行"
+      ],
+      [
+       "seat",
+       "座位",
+       "行"
+      ],
+      [
+       "priority seat",
+       "博愛座",
+       "行"
+      ],
+      [
+       "passenger",
+       "乘客",
+       "行"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The last tip: 'Use your commute time well.' What do you do on your way to work or school?",
+      "最後一個建議：「好好利用通勤時間。」你上班或上學路上做什麼？"
+     ],
+     "o": [
+      [
+       "I listen to podcasts.",
+       "我聽 podcast。",
+       "listen to = 聽。",
+       "Great way to learn! You could even listen to English podcasts with headphones on.",
+       "很好的學習方式！你甚至可以戴耳機聽英文 podcast。"
+      ],
+      [
+       "I read, just like this book says.",
+       "我看書，就像這本書說的。",
+       "just like = 正如。",
+       "A reader after my own heart!",
+       "你真是我的知音書友！"
+      ],
+      [
+       "I usually sleep.",
+       "我通常睡覺。",
+       "usually = 通常。",
+       "Ha! Just don't miss your stop.",
+       "哈！別坐過站就好。"
+      ]
+     ],
+     "v": [
+      [
+       "on the way",
+       "在路上",
+       "行"
+      ],
+      [
+       "headphones",
+       "耳機",
+       "其他"
+      ],
+      [
+       "stop",
+       "（車）站",
+       "行"
+      ],
+      [
+       "get off",
+       "下車",
+       "行"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Good luck with rush hour tomorrow! Next time: renting an apartment.",
+    "明天尖峰時刻加油！下次聊：租房子。"
+   ]
+  },
+  {
+   "t": "Renting your first apartment",
+   "zh": "租第一間公寓",
+   "cat": "住",
+   "intro": [
+    "Chapter five is about finding a place to live in the city.",
+    "第五章是關於在城市裡找地方住。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "The book says to check three things: rent, location, and sunlight. Which is most important to you?",
+      "書上說要看三件事：租金、地點和日照。哪個對你最重要？"
+     ],
+     "o": [
+      [
+       "Rent. I'm on a tight budget.",
+       "租金。我預算很緊。",
+       "on a tight budget = 預算很緊。",
+       "Totally understandable. City rent is so expensive.",
+       "完全可以理解。城市租金好貴。"
+      ],
+      [
+       "Location, near an MRT station.",
+       "地點，要靠近捷運站。",
+       "near = 靠近。station = 車站。",
+       "Good thinking. It saves a lot of commuting time.",
+       "想得好。能省很多通勤時間。"
+      ],
+      [
+       "Sunlight! I hate dark rooms.",
+       "日照！我討厭暗暗的房間。",
+       "sunlight = 陽光。",
+       "Me too. A bright room makes me happier.",
+       "我也是。明亮的房間讓我更快樂。"
+      ]
+     ],
+     "v": [
+      [
+       "rent",
+       "租金；租",
+       "住"
+      ],
+      [
+       "location",
+       "地點",
+       "住"
+      ],
+      [
+       "sunlight",
+       "陽光；日照",
+       "住"
+      ],
+      [
+       "budget",
+       "預算",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The landlord asks for a deposit of two months' rent. Is that normal where you live?",
+      "房東要求兩個月租金當押金。在你住的地方這正常嗎？"
+     ],
+     "o": [
+      [
+       "Yes, that's pretty common here.",
+       "是的，這裡蠻常見的。",
+       "pretty 在這裡是「相當」（口語），不是「漂亮」。",
+       "Same in many cities. Just make sure you get it back when you move out.",
+       "很多城市都一樣。只要確保搬走時能拿回來。"
+      ],
+      [
+       "It sounds too high to me.",
+       "我覺得聽起來太高了。",
+       "to me = 對我來說。",
+       "It's a lot of money at once. You can try to negotiate before you sign the lease.",
+       "一次付很多錢。你可以在簽租約前試著談談看。"
+      ],
+      [
+       "I've never rented a place.",
+       "我從來沒租過房子。",
+       "have never + 過去分詞 = 從未做過。",
+       "Then this chapter is perfect for you!",
+       "那這一章很適合你！"
+      ]
+     ],
+     "v": [
+      [
+       "landlord",
+       "房東",
+       "住"
+      ],
+      [
+       "deposit",
+       "押金",
+       "住"
+      ],
+      [
+       "lease",
+       "租約",
+       "住"
+      ],
+      [
+       "move out",
+       "搬出去",
+       "住"
+      ],
+      [
+       "tenant",
+       "房客",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Some apartments are furnished and some are empty. Which would you choose?",
+      "有些公寓附家具，有些是空的。你會選哪一種？"
+     ],
+     "o": [
+      [
+       "Furnished. Moving furniture is a pain.",
+       "附家具的。搬家具很麻煩。",
+       "a pain = 很麻煩（口語）。",
+       "Agreed. Carrying a sofa up five floors is no fun!",
+       "同意。把沙發搬上五樓一點都不好玩！"
+      ],
+      [
+       "Empty, so I can decorate it my way.",
+       "空的，這樣我可以照我的方式佈置。",
+       "decorate = 佈置、裝潢。my way = 我的方式。",
+       "That sounds fun. Your home, your style!",
+       "聽起來很有趣。你的家，你的風格！"
+      ],
+      [
+       "It depends on the price.",
+       "看價格而定。",
+       "It depends on = 取決於。",
+       "Very practical. The book says furnished places usually cost more.",
+       "很實際。書上說附家具的通常比較貴。"
+      ]
+     ],
+     "v": [
+      [
+       "furnished",
+       "附家具的",
+       "住"
+      ],
+      [
+       "furniture",
+       "家具",
+       "住"
+      ],
+      [
+       "sofa",
+       "沙發",
+       "住"
+      ],
+      [
+       "decorate",
+       "佈置",
+       "住"
+      ],
+      [
+       "floor",
+       "樓層；地板",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The book's final advice: 'Get along with your neighbors.' Do you know your neighbors?",
+      "書的最後建議：「和鄰居好好相處。」你認識你的鄰居嗎？"
+     ],
+     "o": [
+      [
+       "Yes, we say hi in the elevator.",
+       "認識，我們在電梯裡會打招呼。",
+       "say hi = 打招呼。elevator = 電梯。",
+       "That's nice. A small hello makes a building feel like home.",
+       "真好。一句小小的問候讓大樓感覺像家。"
+      ],
+      [
+       "Not really. Everyone is busy.",
+       "不太認識。大家都很忙。",
+       "Not really = 不太，委婉的否定。",
+       "That's city life, I guess. Maybe start with a smile.",
+       "我想這就是城市生活吧。也許可以從微笑開始。"
+      ],
+      [
+       "My neighbor is too noisy!",
+       "我的鄰居太吵了！",
+       "noisy = 吵鬧的。",
+       "Oh no. The book has a whole page about noise problems!",
+       "糟糕。書裡有一整頁在講噪音問題！"
+      ]
+     ],
+     "v": [
+      [
+       "neighbor",
+       "鄰居",
+       "住"
+      ],
+      [
+       "elevator",
+       "電梯",
+       "住"
+      ],
+      [
+       "noisy",
+       "吵鬧的",
+       "住"
+      ],
+      [
+       "building",
+       "大樓",
+       "住"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "I hope you find a great place someday. Talk soon!",
+    "希望你有一天能找到很棒的房子。改天再聊！"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,481 @@
+{
+ "id": "tm",
+ "v": 1,
+ "lv": "a",
+ "g": "科幻",
+ "kind": "經典名著",
+ "title": "The Time Machine",
+ "zhTitle": "時間機器",
+ "author": "H. G. Wells",
+ "color": "#1F5E7A",
+ "desc": "時間旅人來到公元802,701年，地面上是悠閒的伊洛伊人，地底下卻藏著莫洛克人。",
+ "license": "公有領域",
+ "source": "Project Gutenberg",
+ "url": "https://www.gutenberg.org/ebooks/35",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "The food of the future",
+   "zh": "未來的食物",
+   "cat": "食",
+   "intro": [
+    "Let's discuss H. G. Wells's 'The Time Machine.' The Time Traveller visits the year 802,701!",
+    "我們來討論威爾斯的《時間機器》。時間旅人造訪了公元802,701年！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "The Eloi live entirely on fruit. No cattle, no farms, apparently no effort at all. Does a purely fruit-based diet sound utopian or unsettling to you?",
+      "伊洛伊人完全靠水果維生。沒有牛群、沒有農場，看起來毫不費力。純水果飲食對你來說聽起來像烏托邦，還是令人不安？"
+     ],
+     "o": [
+      [
+       "Utopian at first, but I'd miss the variety.",
+       "一開始像烏托邦，但我會想念多樣性。",
+       "variety = 多樣性。at first = 起初。",
+       "The Traveller feels the same. Before long, he's craving meat.",
+       "時間旅人也有同感。沒多久他就很想吃肉。"
+      ],
+      [
+       "Unsettling. Nothing comes for free.",
+       "令人不安。天下沒有白吃的午餐。",
+       "Nothing comes for free = 沒有東西是免費得來的。",
+       "A sharp instinct, and a spoiler of sorts: someone underground is paying the price.",
+       "敏銳的直覺，也算某種劇透：地底下有人在付出代價。"
+      ],
+      [
+       "Honestly, it sounds like a healthy detox.",
+       "老實說，聽起來像健康的排毒餐。",
+       "detox = 排毒。",
+       "Ha! An 800,000-year juice cleanse.",
+       "哈！一場八十萬年的果汁排毒。"
+      ]
+     ],
+     "v": [
+      [
+       "diet",
+       "飲食",
+       "食"
+      ],
+      [
+       "cattle",
+       "牛群",
+       "食"
+      ],
+      [
+       "produce",
+       "農產品",
+       "食"
+      ],
+      [
+       "variety",
+       "多樣性",
+       "其他"
+      ],
+      [
+       "crave",
+       "渴望（吃）",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "They dine together in a huge, decaying hall, using slabs of polished stone as tables. How much does the setting matter when you eat?",
+      "他們在一座巨大而破敗的大廳裡一起用餐，用磨光的石板當桌子。用餐環境對你有多重要？"
+     ],
+     "o": [
+      [
+       "A lot. A good atmosphere makes food taste better.",
+       "很重要。好的氛圍讓食物更美味。",
+       "atmosphere = 氣氛、氛圍。",
+       "Research supports that. Lighting and music genuinely affect how we taste.",
+       "有研究支持這點。燈光和音樂確實會影響我們的味覺。"
+      ],
+      [
+       "Not at all. I often eat at my desk.",
+       "一點也不。我常在辦公桌前吃。",
+       "not at all = 一點也不。",
+       "Very modern, and a little bleak, much like the Eloi's ruined hall.",
+       "很現代，也有點淒涼，很像伊洛伊人的廢墟大廳。"
+      ],
+      [
+       "Company matters more than the room.",
+       "同伴比空間更重要。",
+       "company 在這裡是「同伴」，不可數。",
+       "A lovely point. The Eloi eat together but barely talk: company without conversation.",
+       "說得好。伊洛伊人一起吃卻幾乎不交談：有伴卻沒有對話。"
+      ]
+     ],
+     "v": [
+      [
+       "dine",
+       "用餐",
+       "食"
+      ],
+      [
+       "banquet hall",
+       "宴會廳",
+       "住"
+      ],
+      [
+       "atmosphere",
+       "氣氛",
+       "其他"
+      ],
+      [
+       "communal",
+       "共享的；公共的",
+       "住"
+      ],
+      [
+       "decay",
+       "衰敗",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Wells suggests that when every need is met, humanity loses its drive. Are convenience foods and delivery apps making us less capable?",
+      "威爾斯暗示，當所有需求都被滿足，人類就失去了動力。便利食品和外送 app 是否讓我們變得更無能？"
+     ],
+     "o": [
+      [
+       "To some extent. Many people can't cook basic meals anymore.",
+       "某種程度上是。很多人已經不會煮基本的餐點了。",
+       "to some extent = 某種程度上。not ... anymore = 不再。",
+       "That's an Eloi-like drift. Convenience quietly erodes our skills.",
+       "那是一種伊洛伊式的漂移。便利悄悄侵蝕我們的技能。"
+      ],
+      [
+       "No, it frees up time for other things.",
+       "不會，它幫我們騰出時間做別的事。",
+       "free up = 騰出（時間、空間）。",
+       "A fair counterargument. The Eloi, however, used their free time for nothing at all.",
+       "合理的反駁。不過伊洛伊人把空閒時間完全浪費掉了。"
+      ],
+      [
+       "It depends on what we do with the saved time.",
+       "取決於我們如何使用省下的時間。",
+       "It depends on what... = 取決於…什麼。",
+       "Precisely the question Wells leaves us with.",
+       "這正是威爾斯留給我們的問題。"
+      ]
+     ],
+     "v": [
+      [
+       "convenience food",
+       "便利食品",
+       "食"
+      ],
+      [
+       "delivery",
+       "外送",
+       "食"
+      ],
+      [
+       "takeout",
+       "外帶餐點",
+       "食"
+      ],
+      [
+       "meal prep",
+       "備餐",
+       "食"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The Traveller strikes matches to scare off the Morlocks, and he's horrified to realize what meat they eat. If you could bring one food back from the future, would you?",
+      "時間旅人點燃火柴嚇退莫洛克人，並驚恐地意識到他們吃的是什麼肉。如果你能從未來帶一種食物回來，你會帶嗎？"
+     ],
+     "o": [
+      [
+       "Only if I knew exactly what was in it!",
+       "除非我確切知道裡面有什麼！",
+       "Only if I knew... 假設語氣：只有在我知道…的情況下。",
+       "After the Morlock revelation, that's a very wise condition.",
+       "在莫洛克人的真相揭露後，這是很明智的條件。"
+      ],
+      [
+       "Yes, lab-grown meat that's actually delicious.",
+       "會，真的很好吃的實驗室培育肉。",
+       "lab-grown meat = 實驗室培育肉。actually = 真的、確實。",
+       "That's a science-fiction idea that's quickly becoming reality.",
+       "那是一個正迅速成真的科幻點子。"
+      ],
+      [
+       "No, I'd bring back seeds instead.",
+       "不，我會改帶種子回來。",
+       "instead = 改為、取而代之。",
+       "Poetic! Weena gives him two strange white flowers, the only proof of his journey.",
+       "好有詩意！薇娜送他兩朵奇怪的白花，那是他旅程唯一的證據。"
+      ]
+     ],
+     "v": [
+      [
+       "lab-grown meat",
+       "實驗室培育肉",
+       "食"
+      ],
+      [
+       "seed",
+       "種子",
+       "食"
+      ],
+      [
+       "edible",
+       "可食用的",
+       "食"
+      ],
+      [
+       "cuisine",
+       "料理；菜系",
+       "食"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Chilling and brilliant. Next time, let's explore the ruined buildings of the future.",
+    "令人發寒又精彩。下次來探索未來的廢墟建築吧。"
+   ]
+  },
+  {
+   "t": "Ruins and dwellings",
+   "zh": "廢墟與居所",
+   "cat": "住",
+   "intro": [
+    "Let's look at the architecture of the future. Wells paints such haunting ruins.",
+    "我們來看看未來的建築。威爾斯描繪的廢墟令人難忘。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "The Eloi live in vast communal buildings with no private homes at all. Could you give up private space entirely?",
+      "伊洛伊人住在巨大的共同建築裡，完全沒有私人住所。你能完全放棄私人空間嗎？"
+     ],
+     "o": [
+      [
+       "Never. Privacy is essential to me.",
+       "絕不。隱私對我來說不可或缺。",
+       "essential = 不可或缺的。",
+       "Wells hints that without privacy, individuality fades too.",
+       "威爾斯暗示，沒了隱私，個性也會跟著消失。"
+      ],
+      [
+       "Maybe, in a close-knit community.",
+       "也許可以，在關係緊密的社群裡。",
+       "close-knit = 關係緊密的。",
+       "Co-living spaces are testing exactly that idea today.",
+       "今天的共居空間正在實驗這個想法。"
+      ],
+      [
+       "I did it in a college dorm. Once was enough!",
+       "我大學住宿舍時體驗過。一次就夠了！",
+       "dorm = dormitory 宿舍。Once was enough = 一次就夠了。",
+       "Ha! Dorm life is our closest real-world Eloi simulation.",
+       "哈！宿舍生活是現實世界最接近伊洛伊人的模擬。"
+      ]
+     ],
+     "v": [
+      [
+       "communal",
+       "共用的",
+       "住"
+      ],
+      [
+       "privacy",
+       "隱私",
+       "住"
+      ],
+      [
+       "dormitory",
+       "宿舍",
+       "住"
+      ],
+      [
+       "co-living",
+       "共居",
+       "住"
+      ],
+      [
+       "residence",
+       "住所",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The Morlocks live underground and reach the surface through well-like shafts. Would you ever live in an underground home, like the cave houses in some deserts?",
+      "莫洛克人住在地底，透過像井一樣的豎坑到達地面。你會住地下的房子嗎，像某些沙漠地區的洞穴住宅？"
+     ],
+     "o": [
+      [
+       "Yes, with good ventilation and light wells.",
+       "會，只要有良好的通風和採光井。",
+       "ventilation = 通風。light well = 採光井。",
+       "Spoken like an architect! Coober Pedy in Australia is a real example.",
+       "像建築師說的話！澳洲的庫伯佩迪就是真實例子。"
+      ],
+      [
+       "No, I'd feel claustrophobic.",
+       "不會，我會有幽閉恐懼。",
+       "claustrophobic = 有幽閉恐懼的。",
+       "Understandable, and Wells exploits exactly that fear.",
+       "可以理解，而威爾斯正是利用了這種恐懼。"
+      ],
+      [
+       "Only on vacation, not permanently.",
+       "只在度假時，不是永久。",
+       "permanently = 永久地。",
+       "A cave hotel in Cappadocia sounds like the perfect compromise.",
+       "卡帕多奇亞的洞穴飯店聽起來是完美的折衷。"
+      ]
+     ],
+     "v": [
+      [
+       "underground",
+       "地下的",
+       "住"
+      ],
+      [
+       "ventilation",
+       "通風",
+       "住"
+      ],
+      [
+       "basement",
+       "地下室",
+       "住"
+      ],
+      [
+       "shaft",
+       "豎坑；豎井",
+       "住"
+      ],
+      [
+       "claustrophobic",
+       "幽閉恐懼的",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "He finds the Palace of Green Porcelain, a crumbling museum full of rotting books. What would you want future generations to find in our buildings?",
+      "他發現了綠瓷宮，一座滿是腐爛書籍、正在崩塌的博物館。你希望未來世代在我們的建築裡找到什麼？"
+     ],
+     "o": [
+      [
+       "Libraries. Knowledge should outlast us.",
+       "圖書館。知識應該比我們活得更久。",
+       "outlast = 比…更持久。",
+       "His despair over the rotten books suggests Wells shared that hope.",
+       "他對腐爛書籍的絕望，暗示威爾斯也抱持同樣的希望。"
+      ],
+      [
+       "Sustainable buildings that still work.",
+       "仍能運作的永續建築。",
+       "sustainable = 永續的。",
+       "A practical legacy. Durability is the ultimate green feature.",
+       "實用的遺產。耐久性是終極的環保特性。"
+      ],
+      [
+       "Ordinary homes, to show how we really lived.",
+       "普通的家，展示我們真正的生活方式。",
+       "ordinary = 普通的。",
+       "Like Pompeii: everyday kitchens tell us more than palaces do.",
+       "就像龐貝：日常的廚房比宮殿告訴我們更多。"
+      ]
+     ],
+     "v": [
+      [
+       "porcelain",
+       "瓷器",
+       "住"
+      ],
+      [
+       "crumble",
+       "崩塌；粉碎",
+       "住"
+      ],
+      [
+       "architecture",
+       "建築",
+       "住"
+      ],
+      [
+       "sustainable",
+       "永續的",
+       "住"
+      ],
+      [
+       "durable",
+       "耐用的",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "The novel ends with the Traveller vanishing again, perhaps forever. If you could travel in time, would you rather see the architecture of the past or of the future?",
+      "小說以時間旅人再次消失作結，也許永遠不回來。如果你能時空旅行，你想看過去的建築還是未來的建築？"
+     ],
+     "o": [
+      [
+       "The past, especially ancient cities at their peak.",
+       "過去，特別是古城在鼎盛時期的樣子。",
+       "at their peak = 在巔峰時期。",
+       "Imagine Rome with its original painted marble!",
+       "想像一下羅馬原本塗著彩色的大理石！"
+      ],
+      [
+       "The future. I'm curious about vertical cities.",
+       "未來。我對垂直城市很好奇。",
+       "vertical = 垂直的。",
+       "Skyscraper farms and sky bridges. Hopefully not built over Morlock tunnels!",
+       "摩天農場和空中天橋。希望不是蓋在莫洛克人的隧道上！"
+      ],
+      [
+       "Neither. I'd visit my grandparents' house when they were young.",
+       "都不要。我想去看祖父母年輕時的家。",
+       "neither = 兩者都不。",
+       "That's the most touching answer. Personal history is its own time machine.",
+       "這是最動人的答案。個人的歷史本身就是一台時光機。"
+      ]
+     ],
+     "v": [
+      [
+       "skyscraper",
+       "摩天大樓",
+       "住"
+      ],
+      [
+       "marble",
+       "大理石",
+       "住"
+      ],
+      [
+       "landmark",
+       "地標",
+       "行"
+      ],
+      [
+       "heritage",
+       "文化遺產",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Thank you for travelling through time with me. Until the next era!",
+    "謝謝你陪我穿越時空。下個時代見！"
+   ]
+  }
+ ]
+}

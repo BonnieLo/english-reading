@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page Talk 書友聊天室</title>
+<meta name="description" content="可離線遊玩的英語學習聊天室：跟外國書友聊讀物，三選一回覆附中文解析，學食衣住行單字。">
+<meta name="theme-color" content="#1F6F68">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Page Talk">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preload" href="fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="home" class="wrap"></div>
+<div id="words" class="wrap" hidden></div>
+<div id="chat" class="chat" hidden>
+  <div class="chat-inner">
+    <div class="bar">
+      <button class="icon-btn" id="back" aria-label="回書架"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <div class="avatar" id="cAvatar">L</div>
+      <div class="who"><b id="cTitle"></b><small id="cSub"></small></div>
+      <button class="tog" id="zhTog" aria-pressed="true">中文</button>
+      <button class="tog" id="voTog" aria-pressed="true">朗讀</button>
+    </div>
+    <div class="progress" id="prog"></div>
+    <div class="msgs" id="msgs" aria-live="polite"></div>
+    <div class="opts" id="opts"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>

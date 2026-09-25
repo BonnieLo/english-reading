@@ -1,0 +1,471 @@
+{
+ "id": "pp",
+ "v": 1,
+ "lv": "a",
+ "g": "經典愛情",
+ "kind": "經典名著",
+ "title": "Pride and Prejudice",
+ "zhTitle": "傲慢與偏見",
+ "author": "Jane Austen",
+ "color": "#8A3B55",
+ "desc": "伊莉莎白與達西從誤解到相知。舞會、莊園與服裝，處處藏著英國攝政時期的階級密碼。",
+ "license": "公有領域",
+ "source": "Project Gutenberg",
+ "url": "https://www.gutenberg.org/ebooks/1342",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Dressing for the ball",
+   "zh": "為舞會盛裝",
+   "cat": "衣",
+   "intro": [
+    "Shall we discuss 'Pride and Prejudice'? I'm fascinated by how much clothing reveals about class in Austen's world.",
+    "我們來討論《傲慢與偏見》好嗎？我很著迷於在奧斯汀的世界裡，衣著能透露多少階級訊息。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "When Elizabeth walks three miles to Netherfield, her petticoat is six inches deep in mud. The Bingley sisters are appalled. How do you read that scene?",
+      "伊莉莎白走了三英里到尼德斐，襯裙沾了六英寸深的泥巴。賓利姊妹大感震驚。你怎麼解讀這一幕？"
+     ],
+     "o": [
+      [
+       "It shows she values family over appearances.",
+       "這顯示她重視家人勝過外表。",
+       "value A over B = 重視 A 勝過 B。appearances = 外表、體面。",
+       "Exactly. She's there for her sick sister, and the muddy hem becomes a badge of loyalty.",
+       "正是如此。她是為了生病的姊姊而來，沾泥的裙襬成了忠誠的標誌。"
+      ],
+      [
+       "Honestly, I'd be embarrassed in her position.",
+       "老實說，換作是我會很尷尬。",
+       "in her position = 處在她的立場。",
+       "A fair reaction. Yet Darcy notices how the walk has brightened her complexion.",
+       "很合理的反應。但達西卻注意到這段路讓她的氣色更加明亮。"
+      ],
+      [
+       "The sisters are just being snobbish.",
+       "那對姊妹只是在勢利眼。",
+       "snobbish = 勢利的、自命不凡的。being + 形容詞 表示「一時表現得…」。",
+       "Absolutely. Austen uses their snobbery to make Elizabeth more sympathetic.",
+       "完全同意。奧斯汀用她們的勢利讓伊莉莎白更討喜。"
+      ]
+     ],
+     "v": [
+      [
+       "petticoat",
+       "襯裙",
+       "衣"
+      ],
+      [
+       "hem",
+       "（衣服的）下擺",
+       "衣"
+      ],
+      [
+       "appearance",
+       "外表；體面",
+       "衣"
+      ],
+      [
+       "snobbish",
+       "勢利的",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Before the ball, the ladies obsess over muslin gowns and ribbons. Does what we wear to formal events still signal social status today?",
+      "舞會前，女士們執著於細棉布禮服和緞帶。你覺得今天我們在正式場合的穿著，仍然代表社會地位嗎？"
+     ],
+     "o": [
+      [
+       "Definitely. Designer labels are the modern equivalent.",
+       "當然。名牌就是現代版的對應物。",
+       "designer label = 名牌。equivalent = 相等之物。",
+       "Well put. The logo has replaced lace trim as the status marker.",
+       "說得好。品牌標誌已經取代蕾絲飾邊，成為地位象徵。"
+      ],
+      [
+       "Less so. Casual wear is accepted almost everywhere now.",
+       "沒那麼明顯了。現在休閒服幾乎到處都被接受。",
+       "less so = 程度較低。casual wear = 休閒服。",
+       "True, though a tech billionaire in a hoodie is still making a statement.",
+       "確實，不過穿帽T的科技億萬富翁仍然是在表態。"
+      ],
+      [
+       "It's more about taste than money now.",
+       "現在更關乎品味，而不是金錢。",
+       "taste = 品味。more about A than B = 更關乎 A 而非 B。",
+       "Interesting. Austen would agree: Darcy's elegance is tailored, never flashy.",
+       "有意思。奧斯汀會同意：達西的優雅在於剪裁，而不浮誇。"
+      ]
+     ],
+     "v": [
+      [
+       "gown",
+       "禮服",
+       "衣"
+      ],
+      [
+       "ribbon",
+       "緞帶",
+       "衣"
+      ],
+      [
+       "formal attire",
+       "正式服裝",
+       "衣"
+      ],
+      [
+       "designer label",
+       "名牌",
+       "衣"
+      ],
+      [
+       "tailored",
+       "剪裁合身的",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "At the Meryton ball, Darcy calls Elizabeth 'tolerable, but not handsome enough to tempt me.' If you overheard that, how would you respond?",
+      "在梅里頓的舞會上，達西說伊莉莎白「還過得去，但不夠漂亮到能吸引我」。如果你無意中聽到，你會怎麼回應？"
+     ],
+     "o": [
+      [
+       "I'd laugh it off, just like Elizabeth does.",
+       "我會像伊莉莎白一樣一笑置之。",
+       "laugh it off = 一笑置之。",
+       "Her wit is her armor. She turns the insult into a story she tells with delight.",
+       "她的機智就是她的盔甲。她把羞辱變成一個津津樂道的故事。"
+      ],
+      [
+       "I'd confront him directly.",
+       "我會直接當面質問他。",
+       "confront = 當面對質。",
+       "Bold! That would have been scandalous in a Regency ballroom.",
+       "大膽！在攝政時期的舞廳裡那可是醜聞。"
+      ],
+      [
+       "I'd be hurt, but I wouldn't show it.",
+       "我會受傷，但不會表現出來。",
+       "would + 動詞 用於假設情境。",
+       "Very relatable. Composure was the most valued social skill of the era.",
+       "很能引起共鳴。沉著是那個時代最被看重的社交能力。"
+      ]
+     ],
+     "v": [
+      [
+       "ballroom",
+       "舞廳",
+       "住"
+      ],
+      [
+       "overhear",
+       "無意中聽到",
+       "其他"
+      ],
+      [
+       "insult",
+       "侮辱",
+       "其他"
+      ],
+      [
+       "composure",
+       "沉著；鎮定",
+       "其他"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Austen's original title was 'First Impressions.' Do you believe first impressions are usually reliable?",
+      "奧斯汀原本的書名是《第一印象》。你相信第一印象通常可靠嗎？"
+     ],
+     "o": [
+      [
+       "Rarely. People reveal themselves over time.",
+       "很少。人是隨時間才顯露本性的。",
+       "reveal oneself = 顯露自己。over time = 隨著時間。",
+       "That's the heart of the novel. Both of them misjudge, and then both of them grow.",
+       "這正是小說的核心。兩人都誤判了，然後都成長了。"
+      ],
+      [
+       "Often, actually. Our instincts are sharper than we think.",
+       "其實常常可靠。我們的直覺比想像中敏銳。",
+       "instinct = 直覺。sharper = 更敏銳。",
+       "An intriguing counterpoint, though Elizabeth's instinct about Wickham's charm was spectacularly wrong!",
+       "有趣的反論，不過伊莉莎白對韋翰魅力的直覺可是錯得離譜！"
+      ],
+      [
+       "It depends on whether the person is performing.",
+       "取決於那個人是不是在演。",
+       "whether = 是否。perform = 表演、裝模作樣。",
+       "A sharp observation. Wickham performs charm; Darcy is simply terrible at performing anything.",
+       "敏銳的觀察。韋翰在表演魅力；達西則是根本不擅長表演任何東西。"
+      ]
+     ],
+     "v": [
+      [
+       "first impression",
+       "第一印象",
+       "其他"
+      ],
+      [
+       "reliable",
+       "可靠的",
+       "其他"
+      ],
+      [
+       "misjudge",
+       "誤判",
+       "其他"
+      ],
+      [
+       "prejudice",
+       "偏見",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "What a rich conversation. Next time, let's talk about Pemberley and the grand estates.",
+    "好豐富的對話。下次來聊彭伯里莊園和那些宏偉的宅邸吧。"
+   ]
+  },
+  {
+   "t": "Pemberley and the estate",
+   "zh": "彭伯里莊園",
+   "cat": "住",
+   "intro": [
+    "Let's talk about houses in Austen. Property is practically a character in this novel.",
+    "我們來聊奧斯汀筆下的房子。財產在這本小說裡幾乎就是一個角色。"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Elizabeth jokes that she began loving Darcy when she first saw his beautiful grounds at Pemberley. Can a home change how we see its owner?",
+      "伊莉莎白開玩笑說，她是第一次看到彭伯里美麗的庭園時愛上達西的。一個家會改變我們對主人的看法嗎？"
+     ],
+     "o": [
+      [
+       "Absolutely. A home reflects someone's values.",
+       "絕對會。家反映出一個人的價值觀。",
+       "reflect = 反映。values = 價值觀。",
+       "Pemberley is tasteful rather than showy, and that shows her who Darcy really is.",
+       "彭伯里有品味而不炫耀，這讓她看見達西真正的樣子。"
+      ],
+      [
+       "Maybe, but that could just be the luxury talking.",
+       "也許，但那可能只是奢華感在作祟。",
+       "... talking = 是某因素在影響你說話（口語）。luxury = 奢華。",
+       "Ha! Austen deliberately leaves that ambiguity for readers to enjoy.",
+       "哈！奧斯汀刻意留下這份模糊讓讀者玩味。"
+      ],
+      [
+       "I'd be more impressed by how he treats his staff.",
+       "我會更在意他怎麼對待員工。",
+       "be impressed by = 對…印象深刻。staff = 員工。",
+       "And that's exactly what convinces her: the housekeeper praises him warmly.",
+       "而那正是說服她的東西：管家熱情地稱讚他。"
+      ]
+     ],
+     "v": [
+      [
+       "estate",
+       "莊園；地產",
+       "住"
+      ],
+      [
+       "grounds",
+       "庭園；場地",
+       "住"
+      ],
+      [
+       "housekeeper",
+       "管家",
+       "住"
+      ],
+      [
+       "mansion",
+       "豪宅",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Because of the entail, the Bennet home will pass to Mr. Collins, not to the daughters. How do inheritance customs affect housing where you live?",
+      "因為限定繼承，班奈特家的房子會傳給柯林斯先生，而不是女兒們。在你住的地方，繼承習俗如何影響住房？"
+     ],
+     "o": [
+      [
+       "Property often still goes to sons here.",
+       "這裡的房產往往還是傳給兒子。",
+       "property = 房產、財產。",
+       "That's sobering. It makes Mrs. Bennet's panic feel less comic and more human.",
+       "這令人警醒。這讓班奈特太太的恐慌不再只是可笑，而更有人性。"
+      ],
+      [
+       "Most young people can't afford a home anyway.",
+       "反正大部分年輕人也買不起房。",
+       "afford = 負擔得起。anyway = 反正。",
+       "Sadly true in many cities. Mortgages and prices are our generation's entail.",
+       "很多城市可悲地都是如此。房貸和房價就是我們這一代的限定繼承。"
+      ],
+      [
+       "Things are much more equal now.",
+       "現在平等多了。",
+       "much more = 多得多（比較級加強）。",
+       "That's encouraging. Inheritance law has come a long way since 1813.",
+       "這令人鼓舞。繼承法自1813年以來已經進步很多。"
+      ]
+     ],
+     "v": [
+      [
+       "entail",
+       "限定繼承",
+       "住"
+      ],
+      [
+       "inheritance",
+       "繼承；遺產",
+       "住"
+      ],
+      [
+       "property",
+       "房產",
+       "住"
+      ],
+      [
+       "afford",
+       "負擔得起",
+       "其他"
+      ],
+      [
+       "mortgage",
+       "房貸",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Mr. Collins proudly reports that Lady Catherine's chimneypiece at Rosings cost eight hundred pounds. What feature would you splurge on in a dream home?",
+      "柯林斯先生驕傲地說，凱瑟琳夫人在羅辛斯府的壁爐台花了八百英鎊。你的夢想之家裡，你願意在哪個設計上揮霍？"
+     ],
+     "o": [
+      [
+       "A library with floor-to-ceiling bookshelves.",
+       "有落地書櫃的書房。",
+       "floor-to-ceiling = 從地板到天花板的。",
+       "A kindred spirit! Mr. Bennet would hide in there permanently.",
+       "志同道合！班奈特先生會永遠躲在裡面。"
+      ],
+      [
+       "A spacious open-plan kitchen.",
+       "寬敞的開放式廚房。",
+       "spacious = 寬敞的。open-plan = 開放式格局。",
+       "Practical and sociable. Very different from the hidden servants' kitchens of the era.",
+       "實用又適合社交。和那個時代藏起來的僕人廚房很不一樣。"
+      ],
+      [
+       "Floor heating. Comfort over show.",
+       "地暖。舒適勝過排場。",
+       "A over B = A 優先於 B。show 在這裡是名詞「排場」。",
+       "Lady Catherine would find that far too sensible!",
+       "凱瑟琳夫人會覺得那實在太理智了！"
+      ]
+     ],
+     "v": [
+      [
+       "chimneypiece",
+       "壁爐台",
+       "住"
+      ],
+      [
+       "splurge",
+       "揮霍",
+       "其他"
+      ],
+      [
+       "bookshelf",
+       "書櫃",
+       "住"
+      ],
+      [
+       "open-plan",
+       "開放式格局的",
+       "住"
+      ],
+      [
+       "spacious",
+       "寬敞的",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "At the end, Jane and Bingley leave Netherfield to live closer to Pemberley. Would you ever relocate to be closer to people you love?",
+      "最後珍和賓利搬離尼德斐，好住得離彭伯里近一點。你會為了離所愛的人更近而搬家嗎？"
+     ],
+     "o": [
+      [
+       "Without hesitation.",
+       "毫不猶豫。",
+       "without hesitation = 毫不猶豫。",
+       "Beautifully decisive. Austen's endings are all about choosing your community.",
+       "果斷得漂亮。奧斯汀的結局都在講選擇自己的群體。"
+      ],
+      [
+       "Only if I could keep my career.",
+       "只要能保住我的工作。",
+       "only if = 只有在…條件下。career = 職涯。",
+       "Very realistic. Remote work has made that trade-off easier.",
+       "非常實際。遠距工作讓這種取捨容易多了。"
+      ],
+      [
+       "I'd rather they move closer to me, ha!",
+       "我寧願他們搬來靠近我，哈！",
+       "I'd rather + 子句 = 我寧願（別人）…。",
+       "Spoken like Lady Catherine herself!",
+       "簡直像凱瑟琳夫人本人會說的話！"
+      ]
+     ],
+     "v": [
+      [
+       "relocate",
+       "搬遷",
+       "住"
+      ],
+      [
+       "neighborhood",
+       "社區；街坊",
+       "住"
+      ],
+      [
+       "settle down",
+       "定居",
+       "住"
+      ],
+      [
+       "remote work",
+       "遠距工作",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "A delightful discussion. I'd happily continue it over tea at Pemberley.",
+    "很愉快的討論。我很樂意在彭伯里邊喝茶邊繼續聊。"
+   ]
+  }
+ ]
+}

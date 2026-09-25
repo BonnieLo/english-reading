@@ -1,0 +1,471 @@
+{
+ "id": "holmes",
+ "v": 1,
+ "lv": "i",
+ "g": "推理",
+ "kind": "經典名著",
+ "title": "The Adventures of Sherlock Holmes",
+ "zhTitle": "福爾摩斯冒險史",
+ "author": "Arthur Conan Doyle",
+ "color": "#2F4A3A",
+ "desc": "名偵探福爾摩斯只看一眼衣服和鞋子，就能推理出你從哪裡來、做什麼工作。",
+ "license": "公有領域",
+ "source": "Project Gutenberg",
+ "url": "https://www.gutenberg.org/ebooks/1661",
+ "builtin": true,
+ "topics": [
+  {
+   "t": "Clues in clothing",
+   "zh": "衣服裡的線索",
+   "cat": "衣",
+   "intro": [
+    "I'm reading 'The Adventures of Sherlock Holmes.' Holmes can learn everything about a person from their clothes!",
+    "我在讀《福爾摩斯冒險史》。福爾摩斯可以從一個人的衣服看出他的一切！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "In one story, Holmes looks at a visitor's shiny sleeve and knows he writes a lot. What could someone learn from your clothes today?",
+      "有個故事中，福爾摩斯看到訪客發亮的袖子，就知道他常寫字。今天別人能從你的衣服看出什麼？"
+     ],
+     "o": [
+      [
+       "That I'm going to the gym.",
+       "我要去健身房。",
+       "gym = 健身房。",
+       "Sneakers and a sports bag. An easy case, Watson!",
+       "運動鞋和運動包。簡單的案子，華生！"
+      ],
+      [
+       "That I have a cat. Look at all the fur!",
+       "我有養貓。看這些毛！",
+       "fur = 動物的毛。",
+       "Ha! Holmes would notice the cat fur in one second.",
+       "哈！福爾摩斯一秒就會注意到貓毛。"
+      ],
+      [
+       "Probably that I was in a hurry.",
+       "大概是我很匆忙。",
+       "in a hurry = 匆忙。probably = 大概。",
+       "A button in the wrong hole? Holmes loves details like that.",
+       "扣子扣錯洞？福爾摩斯最愛那種細節。"
+      ]
+     ],
+     "v": [
+      [
+       "sleeve",
+       "袖子",
+       "衣"
+      ],
+      [
+       "button",
+       "釦子",
+       "衣"
+      ],
+      [
+       "collar",
+       "領子",
+       "衣"
+      ],
+      [
+       "fur",
+       "動物毛",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Holmes notices mud on a woman's boots and knows which road she came by. Do your shoes tell a story?",
+      "福爾摩斯注意到一位女士靴子上的泥巴，就知道她走哪條路來。你的鞋子會說故事嗎？"
+     ],
+     "o": [
+      [
+       "Yes, they're worn out from walking.",
+       "會，它們因為常走路而磨損了。",
+       "worn out = 磨損、穿舊了。",
+       "A walker! Holmes would say you don't own a car.",
+       "愛走路的人！福爾摩斯會說你沒有車。"
+      ],
+      [
+       "They're brand new, actually.",
+       "其實它們是全新的。",
+       "brand new = 全新的。actually = 其實。",
+       "Then Holmes would guess you just went shopping!",
+       "那福爾摩斯會猜你剛去購物！"
+      ],
+      [
+       "They're always a bit muddy.",
+       "它們總是有點沾泥。",
+       "muddy = 沾泥的。a bit = 有點。",
+       "Country life? Or maybe a rainy city like London.",
+       "鄉村生活？還是像倫敦那樣的多雨城市。"
+      ]
+     ],
+     "v": [
+      [
+       "boots",
+       "靴子",
+       "衣"
+      ],
+      [
+       "mud",
+       "泥巴",
+       "其他"
+      ],
+      [
+       "worn out",
+       "磨損的",
+       "衣"
+      ],
+      [
+       "shoelace",
+       "鞋帶",
+       "衣"
+      ],
+      [
+       "heel",
+       "鞋跟",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Victorian gentlemen always wore a hat and gloves outside. Do you have a dress code at work or school?",
+      "維多利亞時代的紳士外出一定戴帽子和手套。你的工作或學校有服裝規定嗎？"
+     ],
+     "o": [
+      [
+       "Yes, I wear a uniform.",
+       "有，我穿制服。",
+       "uniform = 制服。",
+       "Uniforms make mornings easy. No need to choose!",
+       "制服讓早上變簡單。不用挑衣服！"
+      ],
+      [
+       "Business casual, mostly.",
+       "大多是商務休閒。",
+       "business casual = 商務休閒穿著。mostly = 大多。",
+       "A nice shirt without a tie, right? Very modern.",
+       "好看的襯衫、不打領帶，對吧？很現代。"
+      ],
+      [
+       "No rules. I wear whatever I want.",
+       "沒有規定。我想穿什麼就穿什麼。",
+       "whatever = 任何…的東西。",
+       "Freedom! Holmes would find you harder to read.",
+       "自由！福爾摩斯會覺得你比較難看透。"
+      ]
+     ],
+     "v": [
+      [
+       "dress code",
+       "服裝規定",
+       "衣"
+      ],
+      [
+       "uniform",
+       "制服",
+       "衣"
+      ],
+      [
+       "tie",
+       "領帶",
+       "衣"
+      ],
+      [
+       "suit",
+       "西裝",
+       "衣"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Holmes wears disguises: an old sailor, a priest, even a homeless man. If you needed a disguise, what would you wear?",
+      "福爾摩斯常喬裝：老水手、牧師，甚至流浪漢。如果你要喬裝，你會穿什麼？"
+     ],
+     "o": [
+      [
+       "Sunglasses and a big coat.",
+       "墨鏡和大外套。",
+       "sunglasses = 太陽眼鏡（複數）。",
+       "Classic spy style! Simple, but it works.",
+       "經典間諜風！簡單但有效。"
+      ],
+      [
+       "A fake beard!",
+       "假鬍子！",
+       "fake = 假的。beard = 鬍子。",
+       "Ha! Holmes really uses fake beards and wigs in the stories.",
+       "哈！福爾摩斯在故事裡真的用過假鬍子和假髮。"
+      ],
+      [
+       "A delivery uniform. No one notices delivery people.",
+       "外送員制服。沒人會注意外送員。",
+       "notice = 注意到。",
+       "Brilliant thinking! That's very Holmes.",
+       "聰明的想法！很有福爾摩斯的風格。"
+      ]
+     ],
+     "v": [
+      [
+       "disguise",
+       "偽裝",
+       "衣"
+      ],
+      [
+       "sunglasses",
+       "太陽眼鏡",
+       "衣"
+      ],
+      [
+       "beard",
+       "鬍子",
+       "其他"
+      ],
+      [
+       "wig",
+       "假髮",
+       "衣"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Elementary! Next time, let's visit his home on Baker Street.",
+    "很簡單！下次我們去貝克街拜訪他家。"
+   ]
+  },
+  {
+   "t": "Life at 221B Baker Street",
+   "zh": "貝克街221B",
+   "cat": "住",
+   "intro": [
+    "Now let's visit Holmes's famous home: 221B Baker Street!",
+    "現在來拜訪福爾摩斯有名的家：貝克街221B！"
+   ],
+   "turns": [
+    {
+     "q": [
+      "Holmes shares a flat with Dr. Watson. Would you like to have a roommate?",
+      "福爾摩斯和華生醫生合租一間公寓。你想要有室友嗎？"
+     ],
+     "o": [
+      [
+       "Yes, it saves money.",
+       "想，可以省錢。",
+       "save money = 省錢。",
+       "True! That's exactly why Watson moved in.",
+       "真的！這正是華生搬進來的原因。"
+      ],
+      [
+       "No, I need my own space.",
+       "不要，我需要自己的空間。",
+       "own space = 私人空間。",
+       "Understandable. And Holmes plays the violin at 3 a.m.!",
+       "可以理解。而且福爾摩斯凌晨三點拉小提琴！"
+      ],
+      [
+       "Only if they're tidy.",
+       "除非他們很整潔。",
+       "tidy = 整潔的。",
+       "Then Holmes is not for you. His room is a mess!",
+       "那福爾摩斯不適合你。他的房間一團亂！"
+      ]
+     ],
+     "v": [
+      [
+       "flat",
+       "公寓（英式）",
+       "住"
+      ],
+      [
+       "roommate",
+       "室友",
+       "住"
+      ],
+      [
+       "tidy",
+       "整潔的",
+       "住"
+      ],
+      [
+       "mess",
+       "亂七八糟",
+       "住"
+      ],
+      [
+       "move in",
+       "搬進來",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Their landlady, Mrs. Hudson, brings them breakfast. What would you want your landlord to do for you?",
+      "他們的女房東哈德森太太會送早餐給他們。你希望房東幫你做什麼？"
+     ],
+     "o": [
+      [
+       "Fix things quickly when they break.",
+       "東西壞了趕快修。",
+       "fix = 修理。break = 壞掉。",
+       "That's the most important thing! A broken heater in winter is terrible.",
+       "那最重要！冬天暖氣壞掉很慘。"
+      ],
+      [
+       "Just leave me alone.",
+       "別打擾我就好。",
+       "leave someone alone = 不打擾某人。",
+       "Ha! A quiet landlord is a good landlord.",
+       "哈！安靜的房東就是好房東。"
+      ],
+      [
+       "Breakfast sounds perfect, actually.",
+       "其實送早餐聽起來很完美。",
+       "actually 放句尾 = 其實。",
+       "Right? Eggs and toast delivered to your door!",
+       "對吧？蛋和吐司送到你門口！"
+      ]
+     ],
+     "v": [
+      [
+       "landlady",
+       "女房東",
+       "住"
+      ],
+      [
+       "fix",
+       "修理",
+       "住"
+      ],
+      [
+       "heater",
+       "暖氣",
+       "住"
+      ],
+      [
+       "repair",
+       "修繕",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Holmes keeps his tobacco in a Persian slipper and pins his letters to the fireplace with a knife! Where do you keep important things?",
+      "福爾摩斯把菸草放在波斯拖鞋裡，還用刀把信釘在壁爐上！你把重要的東西放哪裡？"
+     ],
+     "o": [
+      [
+       "In a drawer by my bed.",
+       "床邊的抽屜。",
+       "drawer = 抽屜。by = 在旁邊。",
+       "Simple and safe. Much better than a knife!",
+       "簡單又安全。比刀子好多了！"
+      ],
+      [
+       "Everywhere. I can never find anything.",
+       "到處都是。我從來都找不到東西。",
+       "never = 從不。",
+       "You and Holmes would get along, ha!",
+       "你和福爾摩斯會很合得來，哈！"
+      ],
+      [
+       "In a folder on my desk.",
+       "書桌上的資料夾裡。",
+       "folder = 資料夾。",
+       "Very organized. Watson would be proud.",
+       "很有條理。華生會很驕傲。"
+      ]
+     ],
+     "v": [
+      [
+       "fireplace",
+       "壁爐",
+       "住"
+      ],
+      [
+       "drawer",
+       "抽屜",
+       "住"
+      ],
+      [
+       "shelf",
+       "架子",
+       "住"
+      ],
+      [
+       "slipper",
+       "拖鞋",
+       "衣"
+      ],
+      [
+       "desk",
+       "書桌",
+       "住"
+      ]
+     ]
+    },
+    {
+     "q": [
+      "Today, many fans visit the Sherlock Holmes Museum at 221B. Would you like to visit London?",
+      "今天很多粉絲造訪位於221B的福爾摩斯博物館。你想去倫敦嗎？"
+     ],
+     "o": [
+      [
+       "Yes! It's on my bucket list.",
+       "想！它在我的人生清單上。",
+       "bucket list = 人生願望清單。",
+       "Take the Tube to Baker Street station. The walls there have Holmes's face!",
+       "搭地鐵到貝克街站。那裡的牆上有福爾摩斯的臉！"
+      ],
+      [
+       "I've already been there.",
+       "我已經去過了。",
+       "have been there = 去過那裡。",
+       "Lucky! London's double-decker buses are so fun.",
+       "好幸運！倫敦的雙層巴士好好玩。"
+      ],
+      [
+       "Maybe, if it doesn't rain too much.",
+       "也許吧，如果雨不要下太多。",
+       "if = 如果。",
+       "Ha! Bring an umbrella. London loves rain.",
+       "哈！帶把傘。倫敦很愛下雨。"
+      ]
+     ],
+     "v": [
+      [
+       "the Tube",
+       "倫敦地鐵",
+       "行"
+      ],
+      [
+       "double-decker bus",
+       "雙層巴士",
+       "行"
+      ],
+      [
+       "museum",
+       "博物館",
+       "其他"
+      ],
+      [
+       "bucket list",
+       "人生願望清單",
+       "其他"
+      ]
+     ]
+    }
+   ],
+   "end": [
+    "Thanks for the visit! The game is afoot... until next time.",
+    "謝謝你來訪！好戲開場了……下次見。"
+   ]
+  }
+ ]
+}
