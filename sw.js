@@ -1,6 +1,6 @@
 /* Page Talk service worker：讓 App 離線可用。
    發布新版 App 時，把 VERSION 加一，手機下次連網開啟就會更新。 */
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 const SHELL = "er-shell-" + VERSION;
 const ASSETS = [
   "./", "index.html", "style.css", "app.js", "manifest.webmanifest",

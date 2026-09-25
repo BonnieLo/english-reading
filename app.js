@@ -13,7 +13,7 @@ const PACK_CACHE = "er-packs";
 
 /* ---------- State ---------- */
 const KEY = "pagetalk-v1";
-const S = {level:"b",genre:"全部",points:0,words:{},done:{},zh:true,voice:true,hideInstall:false};
+const S = {level:"b",genre:"全部",points:0,words:{},done:{},zh:true,voice:true,hideInstall:false,log:{},badges:{},rank:0};
 try{ Object.assign(S, JSON.parse(localStorage.getItem(KEY) || "{}")); }catch(e){}
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
 
@@ -166,11 +166,7 @@ function renderHome(){
       <button class="wb-btn" id="openWords"><b>${nWords}</b><span class="zh">單字本</span></button>
     </header>
     ${installBanner()}
-    <div class="stats">
-      <div class="stat"><b>${S.points}</b><span class="zh">聊天積分</span></div>
-      <div class="stat"><b>${nWords}</b><span class="zh">學會單字</span></div>
-      <div class="stat"><b>${nDone}<small style="font-size:.8rem;color:var(--muted)"> / ${nTopics}</small></b><span class="zh">完成話題</span></div>
-    </div>
+    ${progressCard()}
     <div class="netline"><span class="dot${on ? " on" : ""}"></span><span>${on ? "線上" : "離線中，已下載的讀物都能玩"} · 已下載 ${BOOKS.length} 本讀物</span>
       <button class="linkbtn" id="checkUpd" ${checking ? "disabled" : ""}>${checking ? "檢查中…" : "檢查書單更新"}</button></div>
     ${fresh.length ? `<div class="label">新讀物 New</div><div class="store">${fresh.map(storeItem).join("")}</div>
@@ -219,10 +215,11 @@ function bookCard(b){
         const done = S.done[topicId(b, i)];
         return `<li><button class="topic" data-b="${esc(b.id)}" data-t="${i}"><span class="cat" data-c="${esc(t.cat)}">${esc(t.cat)}</span><span class="tt">${esc(t.t)}<small>${esc(t.zh)}</small></span><span class="go${done ? " done" : ""}">${done ? "已聊過 ✓" : "開始聊 →"}</span></button></li>`;
       }).join("")}</ul>
+      ${bookMeter(b)}
       <p class="src">${esc(b.kind || "")} · ${esc(b.license || "")}${src ? " · " + src : ""}</p>
     </div></article>`;
 }
-function exportText(){ return JSON.stringify({app:"page-talk",v:1,at:new Date().toISOString(),points:S.points,words:S.words,done:S.done}); }
+function exportText(){ return JSON.stringify({app:"page-talk",v:1,at:new Date().toISOString(),points:S.points,words:S.words,done:S.done,log:S.log,badges:S.badges}); }
 
 $("#home").addEventListener("click", async e => {
   const lvB = e.target.closest("[data-lv]"); if(lvB){ S.level = lvB.dataset.lv; save(); renderHome(); return; }
@@ -244,6 +241,7 @@ $("#home").addEventListener("click", async e => {
   if(e.target.closest("#doInstall") && installEvt){ installEvt.prompt(); try{ await installEvt.userChoice; }catch(_){} installEvt = null; renderHome(); return; }
   if(e.target.closest("#hideInstall")){ S.hideInstall = true; save(); renderHome(); return; }
   if(e.target.closest("#openWords")){ showWords(); return; }
+  if(e.target.closest("#openProg")){ showProgress(); return; }
   if(e.target.closest("#exp")){
     $("#bkBox").hidden = false; $("#bkText").value = exportText(); $("#bkAct").textContent = "複製";
     $("#bkAct").dataset.mode = "copy"; $("#bkText").select(); return;
@@ -261,16 +259,179 @@ $("#home").addEventListener("click", async e => {
       try{
         const d = JSON.parse($("#bkText").value.trim());
         if(d.app !== "page-talk" || typeof d.points !== "number") throw 0;
-        S.points = d.points; S.words = d.words || {}; S.done = d.done || {}; save(); renderHome(); toast("已匯入備份");
+        S.points = d.points; S.words = d.words || {}; S.done = d.done || {}; S.log = d.log || {}; S.badges = d.badges || {}; S.rank = rankOf(S.points).i; save(); renderHome(); toast("已匯入備份");
       }catch(_){ toast("這不是 Page Talk 的備份文字，請重新複製後再貼上"); }
     }
     return;
   }
   if(e.target.closest("#reset")){ $("#resetAsk").hidden = false; return; }
-  if(e.target.closest("#resetYes")){ S.points = 0; S.words = {}; S.done = {}; save(); renderHome(); toast("已清除進度"); }
+  if(e.target.closest("#resetYes")){ S.points = 0; S.words = {}; S.done = {}; S.log = {}; S.badges = {}; S.rank = 0; save(); renderHome(); toast("已清除進度"); }
 });
 addEventListener("online", () => { renderHome(); syncPacks(false); });
 addEventListener("offline", renderHome);
+
+/* ---------- Progress & achievements ---------- */
+const RANKS = [[0,"新手讀者"],[100,"見習書友"],[300,"小書蟲"],[600,"讀書會常客"],[1000,"文學旅人"],[2000,"書海船長"],[3500,"傳奇讀者"]];
+const BADGES = [
+  {id:"first",   name:"第一句話", desc:"送出第一個回覆",                 goal:s => [s.replies, 1]},
+  {id:"topic1",  name:"聊完一章", desc:"完成第一個話題",                 goal:s => [s.doneTopics, 1]},
+  {id:"book1",   name:"讀完一本", desc:"完成一本讀物的所有話題",         goal:s => [s.booksDone, 1]},
+  {id:"levels",  name:"三種程度", desc:"初級、中級、高級各完成一個話題", goal:s => [s.levels.filter(l => l.done > 0).length, 3]},
+  {id:"topics10",name:"十章達成", desc:"完成 10 個話題",                 goal:s => [s.doneTopics, 10]},
+  {id:"words50", name:"單字 50",  desc:"學會 50 個單字",                 goal:s => [s.words, 50]},
+  {id:"words150",name:"單字 150", desc:"學會 150 個單字",                goal:s => [s.words, 150]},
+  {id:"words300",name:"單字 300", desc:"學會 300 個單字",                goal:s => [s.words, 300]},
+  {id:"life",    name:"生活達人", desc:"食、衣、住、行各學會 15 個單字", goal:s => [Math.min(...["食","衣","住","行"].map(c => s.cats[c].learned)), 15]},
+  {id:"streak3", name:"連續 3 天",desc:"連續 3 天都有聊天",              goal:s => [s.best, 3]},
+  {id:"streak7", name:"連續 7 天",desc:"連續 7 天都有聊天",              goal:s => [s.best, 7]},
+  {id:"all",     name:"書架全破", desc:"完成書架上所有話題",             goal:s => [s.doneTopics, Math.max(1, s.totalTopics)]}
+];
+function today(d = new Date()){ return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
+function dayOffset(n){ const d = new Date(); d.setDate(d.getDate() - n); return d; }
+function rankOf(points){
+  let i = 0; RANKS.forEach(([min], k) => { if(points >= min) i = k; });
+  const next = RANKS[i + 1];
+  const pct = next ? (points - RANKS[i][0]) / (next[0] - RANKS[i][0]) : 1;
+  return {i, name: RANKS[i][1], next, pct};
+}
+function streaks(){
+  const has = d => (S.log[today(d)] || 0) > 0;
+  let cur = 0, start = has(dayOffset(0)) ? 0 : 1;   // 今天還沒聊不算中斷
+  while(has(dayOffset(start + cur))) cur++;
+  const days = Object.keys(S.log).filter(k => S.log[k] > 0).sort();
+  let best = 0, run = 0, prev = null;
+  for(const k of days){
+    const t = new Date(k + "T12:00:00");
+    run = prev && Math.round((t - prev) / 864e5) === 1 ? run + 1 : 1;
+    best = Math.max(best, run); prev = t;
+  }
+  return {cur, best: Math.max(best, cur)};
+}
+function computeStats(){
+  const books = BOOKS.map(b => ({b, total: b.topics.length, done: b.topics.filter((_, i) => S.done[topicId(b, i)]).length}));
+  const levels = Object.keys(LEVELS).map(k => {
+    const bs = books.filter(x => x.b.lv === k);
+    return {k, total: bs.reduce((n, x) => n + x.total, 0), done: bs.reduce((n, x) => n + x.done, 0)};
+  });
+  const avail = {};
+  BOOKS.forEach(b => b.topics.forEach(t => t.turns.forEach(u => u.v.forEach(v => { avail[v[0]] = v[2]; }))));
+  const cats = {};
+  CATS.forEach(c => cats[c] = {learned: 0, total: 0});
+  Object.values(avail).forEach(c => cats[c] && cats[c].total++);
+  Object.entries(S.words).forEach(([w, v]) => { if(cats[v[1]]){ cats[v[1]].learned++; if(!(w in avail)) cats[v[1]].total++; } });
+  const {cur, best} = streaks();
+  const last7 = Array.from({length: 7}, (_, i) => { const d = dayOffset(6 - i); return {d, n: S.log[today(d)] || 0}; });
+  const replies = Object.values(S.log).reduce((n, x) => n + x, 0) || Math.floor(S.points / 10);
+  const totalTopics = books.reduce((n, x) => n + x.total, 0), doneTopics = books.reduce((n, x) => n + x.done, 0);
+  return {books, levels, cats, cur, best, last7, replies, totalTopics, doneTopics,
+    booksDone: books.filter(x => x.total && x.done === x.total).length, words: Object.keys(S.words).length};
+}
+function checkAchievements(){
+  const st = computeStats();
+  const got = [];
+  for(const bd of BADGES){
+    const [have, need] = bd.goal(st);
+    if(!S.badges[bd.id] && have >= need){ S.badges[bd.id] = today(); got.push(bd.name); }
+  }
+  const r = rankOf(S.points);
+  const up = r.i > (S.rank || 0);
+  S.rank = r.i; save();
+  if(up) toast(`升級了！你現在是「${r.name}」`);
+  else if(got.length) toast(`解鎖成就：${got.map(esc).join("、")}`);
+}
+const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
+function meter(value, total, label, extra = ""){
+  return `<div class="mrow">${label}<div class="meter" role="img" aria-label="${value} / ${total}"><i style="width:${pct(value, total)}%"></i></div><span class="mval">${value}/${total}</span>${extra}</div>`;
+}
+function progressCard(){
+  const st = computeStats(), r = rankOf(S.points);
+  const nBadges = Object.keys(S.badges).length;
+  return `<button class="prog-card" id="openProg">
+    <span class="pc-top"><span class="pc-rank">${r.name}</span><span class="pc-pts">${S.points} 分</span></span>
+    <span class="meter"><i style="width:${Math.round(r.pct * 100)}%"></i></span>
+    <span class="pc-sub">${r.next ? `再 ${r.next[0] - S.points} 分升級為「${r.next[1]}」` : "已經是最高等級！"}</span>
+    <span class="pc-row">
+      <span><b>${pct(st.doneTopics, st.totalTopics)}%</b>話題完成</span>
+      <span><b>${st.words}</b>單字</span>
+      <span><b>${st.cur}</b>天連續</span>
+      <span><b>${nBadges}/${BADGES.length}</b>成就</span>
+    </span>
+    <span class="pc-more">看我的進度 →</span>
+  </button>`;
+}
+function bookMeter(b){
+  const done = b.topics.filter((_, i) => S.done[topicId(b, i)]).length;
+  return `<div class="bmeter"><div class="meter"><i style="width:${pct(done, b.topics.length)}%"></i></div><span>${done === b.topics.length ? "全部完成 ✓" : `完成 ${done}/${b.topics.length}`}</span></div>`;
+}
+function showProgress(){
+  const st = computeStats(), r = rankOf(S.points);
+  const p = pct(st.doneTopics, st.totalTopics);
+  const C_ = 2 * Math.PI * 52;
+  const max7 = Math.max(1, ...st.last7.map(x => x.n));
+  const wk = "日一二三四五六";
+  $("#progress").innerHTML = `
+  <div class="wb-head"><button class="icon-btn" id="pBack" aria-label="回書架">${ICON_BACK}</button><h2>我的進度</h2></div>
+
+  <section class="pp-card">
+    <div class="pp-rankline"><span class="pc-rank">${r.name}</span><span class="pc-pts">${S.points} 分</span></div>
+    <div class="meter big"><i style="width:${Math.round(r.pct * 100)}%"></i></div>
+    <p class="pp-note">${r.next ? `再 ${r.next[0] - S.points} 分升級為「${r.next[1]}」 · 每個回覆 +10 分，聊完一個話題再 +30 分` : "你已經是最高等級「傳奇讀者」！"}</p>
+    <ol class="ladder">${RANKS.map(([min, name], k) => `<li class="${k < r.i ? "past" : k === r.i ? "now" : ""}"><b>${name}</b><span>${min}</span></li>`).join("")}</ol>
+  </section>
+
+  <section class="pp-card pp-overview">
+    <svg class="ring" viewBox="0 0 120 120" role="img" aria-label="話題完成 ${p}%">
+      <circle cx="60" cy="60" r="52" class="ring-track"/>
+      <circle cx="60" cy="60" r="52" class="ring-fill" stroke-dasharray="${(C_ * p / 100).toFixed(1)} ${C_.toFixed(1)}" transform="rotate(-90 60 60)"/>
+      <text x="60" y="58" class="ring-num">${p}%</text><text x="60" y="78" class="ring-lbl">話題完成</text>
+    </svg>
+    <div class="ov-stats">
+      <div><b>${st.doneTopics}<small> / ${st.totalTopics}</small></b><span>完成話題</span></div>
+      <div><b>${st.booksDone}<small> / ${st.books.length}</small></b><span>讀完讀物</span></div>
+      <div><b>${st.words}</b><span>學會單字</span></div>
+      <div><b>${st.cur}<small> 天</small></b><span>連續學習（最長 ${st.best} 天）</span></div>
+    </div>
+  </section>
+
+  <section class="pp-card">
+    <h3>最近 7 天 <small>每天送出的回覆數</small></h3>
+    <div class="week" role="table" aria-label="最近 7 天回覆數">
+      ${st.last7.map((x, i) => `<div class="wday" role="row" title="${today(x.d)}：${x.n} 個回覆">
+        <span class="wnum" role="cell">${x.n || ""}</span>
+        <span class="wbar"><i style="height:${x.n ? Math.max(6, x.n / max7 * 100) : 0}%"></i></span>
+        <span class="wlbl" role="cell">${i === 6 ? "今天" : wk[x.d.getDay()]}</span></div>`).join("")}
+    </div>
+    ${st.last7.every(x => !x.n) ? `<p class="pp-note">這 7 天還沒有聊天紀錄，今天聊一個話題就會出現在這裡。</p>` : ""}
+  </section>
+
+  <section class="pp-card">
+    <h3>程度</h3>
+    ${st.levels.map(l => meter(l.done, l.total, `<span class="mlbl">${LEVELS[l.k].zh}</span>`)).join("")}
+  </section>
+
+  <section class="pp-card">
+    <h3>食衣住行單字</h3>
+    ${CATS.map(c => meter(st.cats[c].learned, st.cats[c].total, `<span class="mlbl"><span class="cat" data-c="${c}">${c}</span></span>`)).join("")}
+  </section>
+
+  <section class="pp-card">
+    <h3>成就 <small>${Object.keys(S.badges).length} / ${BADGES.length}</small></h3>
+    <div class="badges">${BADGES.map(bd => {
+      const [have, need] = bd.goal(st), on = !!S.badges[bd.id];
+      return `<div class="badge${on ? " on" : ""}"><span class="bmark" aria-hidden="true">${on ? "★" : "☆"}</span><b>${bd.name}</b><span>${bd.desc}</span>
+        <small>${on ? `${S.badges[bd.id]} 解鎖` : `${Math.min(have, need)} / ${need}`}</small></div>`;
+    }).join("")}</div>
+  </section>
+
+  <section class="pp-card">
+    <h3>讀物</h3>
+    ${st.books.map(x => meter(x.done, x.total, `<span class="mlbl book"><i style="background:${esc(x.b.color)}"></i>${esc(x.b.zhTitle)}<small>${LEVELS[x.b.lv].zh}</small></span>`)).join("")}
+  </section>`;
+  $("#home").hidden = true; $("#words").hidden = true; $("#progress").hidden = false; scrollTo(0, 0);
+}
+$("#progress").addEventListener("click", e => {
+  if(e.target.closest("#pBack")){ $("#progress").hidden = true; $("#home").hidden = false; renderHome(); }
+});
 
 /* ---------- Word book ---------- */
 function showWords(){
@@ -328,7 +489,7 @@ function closeChat(){
   if(C) C.run.cancelled = true;
   if(canSpeak) try{ speechSynthesis.cancel(); }catch(e){}
   C = null; $("#chat").hidden = true; document.body.style.overflow = "";
-  $("#words").hidden = true; $("#home").hidden = false; renderHome();
+  $("#words").hidden = true; $("#progress").hidden = true; $("#home").hidden = false; renderHome();
 }
 $("#back").addEventListener("click", closeChat);
 
@@ -370,7 +531,7 @@ async function partnerSay(run, en, zh){
 async function flow(run){
   const tp = C.topic;
   await partnerSay(run, ...tp.intro); if(run.cancelled) return;
-  await wait(300);
+  await wait(300); if(run.cancelled) return;
   await partnerSay(run, ...tp.turns[0].q); if(run.cancelled) return;
   showOptions();
 }
@@ -415,19 +576,20 @@ async function send(j){
   if(canSpeak) try{ speechSynthesis.cancel(); }catch(e){}
   addBubble("me", o[0], o[1]);
   addExplain(t, j);
-  await wait(250);
+  await wait(250); if(run.cancelled) return;
   await partnerSay(run, o[3], o[4]); if(run.cancelled) return;
   addVocab(t.v);
   S.points += 10;
+  S.log[today()] = (S.log[today()] || 0) + 1;
   t.v.forEach(v => { S.words[v[0]] = [v[1], v[2]]; });
-  save();
+  save(); checkAchievements();
   C.turn++; renderProgress();
   if(C.turn < C.topic.turns.length){
-    await wait(500);
+    await wait(500); if(run.cancelled) return;
     await partnerSay(run, ...C.topic.turns[C.turn].q); if(run.cancelled) return;
     showOptions();
   }else{
-    await wait(400);
+    await wait(400); if(run.cancelled) return;
     await partnerSay(run, ...C.topic.end); if(run.cancelled) return;
     finish();
   }
@@ -451,7 +613,7 @@ function addVocab(v){
 function finish(){
   const id = topicId(C.book, C.ti);
   const first = !S.done[id];
-  S.done[id] = true; S.points += 30; save();
+  S.done[id] = true; S.points += 30; save(); checkAchievements();
   const next = C.book.topics[C.ti + 1];
   const nWords = C.topic.turns.reduce((n, t) => n + t.v.length, 0);
   const d = document.createElement("div");
